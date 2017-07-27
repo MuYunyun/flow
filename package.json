@@ -1,0 +1,26 @@
+{
+  "name": "common_search",
+  "version": "1.0.0",
+  "description": "知乎搜索",
+  "main": "common_search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuYunyun/commonSearch.git"
+  },
+  "keywords": [
+    "alfred",
+    "search"
+  ],
+  "author": "muyunyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuYunyun/commonSearch/issues"
+  },
+  "homepage": "https://github.com/MuYunyun/commonSearch#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
