@@ -1,15 +1,20 @@
-## Basics
-开发基于 `JavaScript`, `node`,  `cheerio`, `知乎搜索`
+开发基于 `node`。使用该插件需要确保已安装上 node 环境。
 使用平台: `Alfred`
 
-使用: 下载 .alfredworkflow 文件, 双击运行
+## 使用方法:
 
-response 的解析依赖于开源的 [cheerio](https://github.com/cheeriojs/cheerio)
-
-
+双击 `Common Search.alfredworkflow` 文件, 自动完成安装。
 
 ## 功能
 
-使用 Alfred 基于关键词快捷搜索知乎平台上的问题及回答
+- [x] 知乎智能搜索匹配
 
-触发 keyword: `zh`
+  触发 key : `zh`
+
+- [ ] 淘宝智能搜索匹配
+
+  触发 key : `tb`
+
+- [ ] 维基智能搜索匹配
+
+  触发 key : `wj`

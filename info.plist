@@ -19,6 +19,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>259A5907-9A8C-4B24-A85E-B11FDC01D311</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>muyunyun</string>
@@ -38,7 +51,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>79</integer>
 				<key>keyword</key>
 				<string>zh</string>
 				<key>queuedelaycustom</key>
@@ -52,7 +65,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>/usr/local/bin/node common_search.js "{query}"</string>
+				<string>/usr/local/bin/node common_search.js 1 "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -81,7 +94,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://www.zhihu.com{query}</string>
+				<string>{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -92,6 +105,49 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>79</integer>
+				<key>keyword</key>
+				<string>tb</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching... Please Wait</string>
+				<key>script</key>
+				<string>/usr/local/bin/node common_search.js 2 "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Input keywords to search in taobao</string>
+				<key>title</key>
+				<string>搜索</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E8F85589-F67A-4DC4-A472-E781462F41BF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -100,16 +156,23 @@
 		<key>0A1F8331-941F-436E-B246-33278755D60A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>90</integer>
 		</dict>
 		<key>259A5907-9A8C-4B24-A85E-B11FDC01D311</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>450</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>170</integer>
+		</dict>
+		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>270</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
