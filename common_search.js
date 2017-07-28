@@ -1,7 +1,9 @@
+// 1 - 知乎; 2 - 淘宝; 3 - 掘金; 4 - SegmentFault; 5 - 简书; 6 - 博客园; 7 - Github
 var number = process.argv[2]
 var keyword = process.argv[3]
 var https = require('https')
 var path = require('path')
+var content = ''
 
 console.error(keyword)
 
@@ -11,7 +13,6 @@ if (number === '1') {
       path: '/autocomplete?token='+encodeURI(keyword)
   }
   var url = 'https://www.zhihu.com/'
-  var content = ''
   https.get(options, function(res) {
     res.on('data', (data) => {
       content += data
@@ -47,11 +48,36 @@ if (number === '1') {
             break
         }
       }
+      content = ''
       console.log(JSON.stringify({
         items: result_array
       }))
     })
   })
 } else if (number === '2') {
-
+  var options = {
+    host: 'suggest.taobao.com',
+    path: '/sug?q='+encodeURI(keyword)
+  }
+  var url = 'https://s.taobao.com/search?q='
+  var aaaa = 'E8F85589-F67A-4DC4-A472-E781462F41BF.png'
+  https.get(options, function(res) {
+    res.on('data', (data) => {
+      content += data
+    }).on('end', function() {
+      var jsonContent = JSON.parse(content) && JSON.parse(content).result
+      var result_array = []
+      for(var i = 1; i < jsonContent.length; i++ ){
+        result_array.push({
+          title: jsonContent[i][0],
+          subtitle: ' 共搜索到 ' + jsonContent[i][1] + ' 个相关物品',
+          arg: url + jsonContent[i][0],
+          icon: aaaa,
+        })
+      }
+      console.log(JSON.stringify({
+        items: result_array
+      }))
+    })
+  })
 }

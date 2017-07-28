@@ -1,20 +1,36 @@
 开发基于 `node`。使用该插件需要确保已安装上 node 环境。
 使用平台: `Alfred`
 
-## 使用方法:
+## 使用方法:
 
-双击 `Common Search.alfredworkflow` 文件, 自动完成安装。
+双击 `Common Search.alfredworkflow` 文件, 自动完成安装。
 
 ## 功能
 
-- [x] 知乎智能搜索匹配
+- [x] 知乎智能搜索匹配
 
   触发 key : `zh`
 
-- [ ] 淘宝智能搜索匹配
+- [x] 淘宝智能搜索匹配
 
   触发 key : `tb`
 
-- [ ] 维基智能搜索匹配
+- [ ] 掘金智能搜索匹配
 
-  触发 key : `wj`
+  触发 key : `juejin`
+
+- [ ] SegmentFault 智能搜索匹配
+
+  触发 Key : `sf`
+
+- [ ] 简书智能搜索匹配
+
+  触发 Key : `jianshu`
+
+- [ ] 博客园智能搜索匹配
+
+  触发 Key : `blogy`
+
+- [ ] Github智能搜索匹配
+
+  触发 Key : `gh`
