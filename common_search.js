@@ -1,4 +1,4 @@
-// 1 - 知乎; 2 - 淘宝; 3 - 掘金; 4 - SegmentFault; 5 - 简书; 6 - 博客园; 7 - Github
+// 1 - 知乎; 2 - 淘宝; 3 - 掘金; 4 - Github
 var number = process.argv[2]
 var keyword = process.argv[3]
 var https = require('https')
@@ -14,8 +14,8 @@ if (number === '1') {
   }
   var url = 'https://www.zhihu.com/'
   https.get(options, function(res) {
-    res.on('data', (data) => {
-      content += data
+    res.on('data', (chunk) => {
+      content += chunk
     }).on('end', function() {
       var jsonContent = JSON.parse(content)[0]
       var result_array = []
@@ -61,12 +61,12 @@ if (number === '1') {
   }
   var url = 'https://s.taobao.com/search?q='
   https.get(options, function(res) {
-    res.on('data', (data) => {
-      content += data
+    res.on('data', (chunk) => {
+      content += chunk
     }).on('end', function() {
       var jsonContent = JSON.parse(content) && JSON.parse(content).result
       var result_array = []
-      for(var i = 1; i < jsonContent.length; i++ ){
+      for(var i = 0; i < jsonContent.length; i++ ){
         result_array.push({
           title: jsonContent[i][0],
           subtitle: ' 共搜索到 ' + jsonContent[i][1] + ' 个相关物品',
@@ -85,12 +85,12 @@ if (number === '1') {
     path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
   }
   https.get(options, function (res) {
-    res.on('data', (data) => {
-      content += data
+    res.on('data', (chunk) => {
+      content += chunk
     }).on('end', function () {
       var jsonContent = JSON.parse(content) && JSON.parse(content).d
       var result_array = []
-      for (var i = 1; i < jsonContent.length; i++) {
+      for (var i = 0; i < jsonContent.length; i++) {
         if (jsonContent[i].user.jobTitle === '') {
           result_array.push({
             title: jsonContent[i].title,
@@ -105,6 +105,7 @@ if (number === '1') {
           })
         }
       }
+      content = ''
       console.log(JSON.stringify({
         items: result_array
       }))
@@ -112,23 +113,25 @@ if (number === '1') {
   })
 } else if (number === '4') {
   var options = {
-    host: 'shusearch-merger-ms.juejin.im',
-    path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
+    host: 'api.github.com',
+    path: '/search/repositories?q=' + encodeURI(keyword) + '&sort=stars',
+    headers: {'User-Agent': 'MuYunyun'}
   }
+
   https.get(options, function(res) {
-    res.on('data', (data) => {
-      content += data
+    res.on('data', (chunk) => {
+      content += chunk
     }).on('end', function() {
-      var jsonContent = JSON.parse(content) && JSON.parse(content).d
+      var jsonContent = JSON.parse(content) && JSON.parse(content).items
       var result_array = []
-      for(var i = 1; i < jsonContent.length; i++ ){
-        console.log('11111' + jsonContent[i].user.jobTitle)
+      for (var i = 0; i < 9; i++) {
         result_array.push({
-          title: jsonContent[i].title,
-          subtitle: '点赞数' + jsonContent[i].collectionCount + '  作者: ' + jsonContent[i].user.username + jsonContent[i].user.jobTitle === '' ? '(' + jsonContent[i].user.jobTitle + ')' : '',
-          arg: jsonContent.originalUrl,
+          title: jsonContent[i].name,
+          subtitle: jsonContent[i].stargazers_count + ' Star ' + '(' + jsonContent[i].description + ')',
+          arg: jsonContent[i].html_url,
         })
       }
+      content = ''
       console.log(JSON.stringify({
         items: result_array
       }))

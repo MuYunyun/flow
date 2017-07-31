@@ -32,6 +32,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>29EFA025-C5F1-468D-B065-59EF0C026D11</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>259A5907-9A8C-4B24-A85E-B11FDC01D311</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<array>
 			<dict>
@@ -204,6 +217,49 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>gh</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching... Please Wait</string>
+				<key>script</key>
+				<string>/usr/local/bin/node common_search.js 4 "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Input keywords to search in github</string>
+				<key>title</key>
+				<string>搜索</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>29EFA025-C5F1-468D-B065-59EF0C026D11</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -212,30 +268,37 @@
 		<key>0A1F8331-941F-436E-B246-33278755D60A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>10</integer>
 		</dict>
 		<key>17C80585-EC4F-498F-AB91-DBA6EBEA4C9D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>100</integer>
 			<key>ypos</key>
-			<integer>260</integer>
+			<integer>270</integer>
 		</dict>
 		<key>259A5907-9A8C-4B24-A85E-B11FDC01D311</key>
 		<dict>
 			<key>xpos</key>
 			<integer>400</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>200</integer>
+		</dict>
+		<key>29EFA025-C5F1-468D-B065-59EF0C026D11</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>390</integer>
 		</dict>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>100</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>130</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

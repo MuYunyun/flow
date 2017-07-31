@@ -15,22 +15,10 @@
 
   触发 key : `tb`
 
-- [ ] 掘金智能搜索匹配
+- [x] 掘金智能搜索匹配
 
   触发 key : `juejin`
 
-- [ ] SegmentFault 智能搜索匹配
-
-  触发 Key : `sf`
-
-- [ ] 简书智能搜索匹配
-
-  触发 Key : `jianshu`
-
-- [ ] 博客园智能搜索匹配
-
-  触发 Key : `blogy`
-
-- [ ] Github智能搜索匹配
+- [x] Github智能搜索匹配
 
   触发 Key : `gh`
