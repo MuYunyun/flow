@@ -57,10 +57,9 @@ if (number === '1') {
 } else if (number === '2') {
   var options = {
     host: 'suggest.taobao.com',
-    path: '/sug?q='+encodeURI(keyword)
+    path: '/sug?code=utf-8&q='+encodeURI(keyword)
   }
   var url = 'https://s.taobao.com/search?q='
-  var aaaa = 'E8F85589-F67A-4DC4-A472-E781462F41BF.png'
   https.get(options, function(res) {
     res.on('data', (data) => {
       content += data
@@ -72,7 +71,62 @@ if (number === '1') {
           title: jsonContent[i][0],
           subtitle: ' 共搜索到 ' + jsonContent[i][1] + ' 个相关物品',
           arg: url + jsonContent[i][0],
-          icon: aaaa,
+        })
+      }
+      content = ''
+      console.log(JSON.stringify({
+        items: result_array
+      }))
+    })
+  })
+} else if (number === '3') {
+  var options = {
+    host: 'search-merger-ms.juejin.im',
+    path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
+  }
+  https.get(options, function (res) {
+    res.on('data', (data) => {
+      content += data
+    }).on('end', function () {
+      var jsonContent = JSON.parse(content) && JSON.parse(content).d
+      var result_array = []
+      for (var i = 1; i < jsonContent.length; i++) {
+        if (jsonContent[i].user.jobTitle === '') {
+          result_array.push({
+            title: jsonContent[i].title,
+            subtitle: '点赞数' + jsonContent[i].collectionCount + ' 作者: ' + jsonContent[i].user.username,
+            arg: jsonContent[i].originalUrl,
+          })
+        } else {
+          result_array.push({
+            title: jsonContent[i].title,
+            subtitle: '点赞数' + jsonContent[i].collectionCount + ' 作者: ' + jsonContent[i].user.username + '(' + jsonContent[i].user.jobTitle + ')',
+            arg: jsonContent[i].originalUrl,
+          })
+        }
+      }
+      console.log(JSON.stringify({
+        items: result_array
+      }))
+    })
+  })
+} else if (number === '4') {
+  var options = {
+    host: 'shusearch-merger-ms.juejin.im',
+    path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
+  }
+  https.get(options, function(res) {
+    res.on('data', (data) => {
+      content += data
+    }).on('end', function() {
+      var jsonContent = JSON.parse(content) && JSON.parse(content).d
+      var result_array = []
+      for(var i = 1; i < jsonContent.length; i++ ){
+        console.log('11111' + jsonContent[i].user.jobTitle)
+        result_array.push({
+          title: jsonContent[i].title,
+          subtitle: '点赞数' + jsonContent[i].collectionCount + '  作者: ' + jsonContent[i].user.username + jsonContent[i].user.jobTitle === '' ? '(' + jsonContent[i].user.jobTitle + ')' : '',
+          arg: jsonContent.originalUrl,
         })
       }
       console.log(JSON.stringify({
