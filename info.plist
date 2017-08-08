@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.commonSearch</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0A1F8331-941F-436E-B246-33278755D60A</key>
@@ -77,7 +79,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>79</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>zh</string>
 				<key>queuedelaycustom</key>
@@ -120,7 +122,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>79</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>tb</string>
 				<key>queuedelaycustom</key>
@@ -182,9 +184,9 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>79</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>juejin</string>
+				<string>gold</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -268,37 +270,37 @@
 		<key>0A1F8331-941F-436E-B246-33278755D60A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>230</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>30</integer>
 		</dict>
 		<key>17C80585-EC4F-498F-AB91-DBA6EBEA4C9D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>90</integer>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
 		<key>259A5907-9A8C-4B24-A85E-B11FDC01D311</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>440</integer>
 			<key>ypos</key>
 			<integer>200</integer>
 		</dict>
 		<key>29EFA025-C5F1-468D-B065-59EF0C026D11</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>230</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>380</integer>
 		</dict>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>90</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>140</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

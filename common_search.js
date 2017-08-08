@@ -3,6 +3,8 @@ var number = process.argv[2]
 var keyword = process.argv[3]
 var https = require('https')
 var path = require('path')
+
+var join = path.join
 var content = ''
 
 console.error(keyword)
@@ -27,7 +29,9 @@ if (number === '1') {
               title: jsonContent[i][1],
               subtitle: ' 【话题】 ' + jsonContent[i][6] + '个精华问答',
               arg: url + type + '/' + jsonContent[i][2],
-              // icon: jsonContent[i][3].replace('_s', '_m'),
+              icon: {
+                path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              }
             })
             break
           case 'people':
@@ -35,7 +39,9 @@ if (number === '1') {
               title: jsonContent[i][1],
               subtitle: ' 【用户】 ' + jsonContent[i][5],
               arg: url + type + '/' + jsonContent[i][2],
-              // icon: jsonContent[i][3].replace('_s', '_m'),
+              icon: {
+                path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              }
             })
             break
           case 'question':
@@ -43,7 +49,9 @@ if (number === '1') {
               title: jsonContent[i][1],
               subtitle: ' 【内容】 ' + jsonContent[i][4] + '个回答',
               arg: url + type + '/' + jsonContent[i][3],
-              // icon: path.dirname(__dirname) + '/0A1F8331-941F-436E-B246-33278755D60A.png',
+              icon: {
+                path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              }
             })
             break
         }
@@ -71,6 +79,9 @@ if (number === '1') {
           title: jsonContent[i][0],
           subtitle: ' 共搜索到 ' + jsonContent[i][1] + ' 个相关物品',
           arg: url + jsonContent[i][0],
+          icon: {
+            path: join(__dirname, '/E8F85589-F67A-4DC4-A472-E781462F41BF.png'),
+          },
         })
       }
       content = ''
@@ -96,12 +107,30 @@ if (number === '1') {
             title: jsonContent[i].title,
             subtitle: '点赞数' + jsonContent[i].collectionCount + ' 作者: ' + jsonContent[i].user.username,
             arg: jsonContent[i].originalUrl,
+            icon: {
+              path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
+            },
+            mods: {
+              cmd: {
+                arg: jsonContent[i].originalUrl,
+                subtitle: jsonContent[i].content
+              }
+            }
           })
         } else {
           result_array.push({
             title: jsonContent[i].title,
             subtitle: '点赞数' + jsonContent[i].collectionCount + ' 作者: ' + jsonContent[i].user.username + '(' + jsonContent[i].user.jobTitle + ')',
             arg: jsonContent[i].originalUrl,
+            icon: {
+              path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
+            },
+            mods: {
+              cmd: {
+                arg: jsonContent[i].originalUrl,
+                subtitle: jsonContent[i].content
+              }
+            }
           })
         }
       }
@@ -117,7 +146,6 @@ if (number === '1') {
     path: '/search/repositories?q=' + encodeURI(keyword) + '&sort=stars',
     headers: {'User-Agent': 'MuYunyun'}
   }
-
   https.get(options, function(res) {
     res.on('data', (chunk) => {
       content += chunk
@@ -129,6 +157,9 @@ if (number === '1') {
           title: jsonContent[i].name,
           subtitle: jsonContent[i].stargazers_count + ' Star ' + '(' + jsonContent[i].description + ')',
           arg: jsonContent[i].html_url,
+          icon: {
+            path: join(__dirname, '29EFA025-C5F1-468D-B065-59EF0C026D11.png')
+          }
         })
       }
       content = ''
