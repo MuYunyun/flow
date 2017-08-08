@@ -14,27 +14,27 @@
 
   触发 key : `zh` ;
 
-  ![](http://oqhtscus0.bkt.clouddn.com/a7fc2d503fb33894212a2c651390a779.jpg)
+  ![](http://oqhtscus0.bkt.clouddn.com/a7fc2d503fb33894212a2c651390a779.jpg-400)
 
 
 - [x] 淘宝智能搜索匹配
 
   触发 key : `tb` ;
 
-  ![](http://oqhtscus0.bkt.clouddn.com/97f9f0513c1369886a812bbf6cd73b05.jpg)
+  ![](http://oqhtscus0.bkt.clouddn.com/97f9f0513c1369886a812bbf6cd73b05.jpg-400)
 
 - [x] 掘金智能搜索匹配
 
   触发 key : `gold` ; 按住 `cmd` 可以查看内容简介;
 
-![](http://oqhtscus0.bkt.clouddn.com/079319b8c521c56075cf2bb1dccc5e6e.jpg)
+  ![](http://oqhtscus0.bkt.clouddn.com/079319b8c521c56075cf2bb1dccc5e6e.jpg-400)
 
 
 - [x] Github智能搜索匹配
 
   触发 Key : `gh` ;
 
-![](http://oqhtscus0.bkt.clouddn.com/c0f217c75c131b1ee93ab4c1d353ec42.jpg)
+  ![](http://oqhtscus0.bkt.clouddn.com/c0f217c75c131b1ee93ab4c1d353ec42.jpg-400)
 
 
 ## todo
