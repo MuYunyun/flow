@@ -27,7 +27,7 @@
 
   触发 key : `gold` ; 按住 `cmd` 可以查看内容简介;
 
-  ![](http://oqhtscus0.bkt.clouddn.com/079319b8c521c56075cf2bb1dccc5e6e.jpg-400)
+  ![](http://oqhtscus0.bkt.clouddn.com/40a83edf9552b4a071dd2ff5093a445b.gif)
 
 
 - [x] Github智能搜索匹配
