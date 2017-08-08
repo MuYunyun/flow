@@ -1,7 +1,7 @@
 
 集成Github、掘金、知乎、淘宝等智能匹配搜索的一款 alfred workflow 插件。(不依赖第三方模块)
 
-![](http://oqhtscus0.bkt.clouddn.com/f27594afeda6b513ffec98c3e60ccbb0.jpg-muyy)
+![](http://oqhtscus0.bkt.clouddn.com/f27594afeda6b513ffec98c3e60ccbb0.jpg-400)
 
 
 ## 使用方法:
