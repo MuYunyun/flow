@@ -1,12 +1,12 @@
 
-集成Github、掘金、知乎、淘宝等智能匹配搜索的一款 alfred workflow 插件。(不依赖第三方模块)
+集成 Github、掘金、知乎、淘宝等智能搜索的一款 alfred workflow 插件。(不依赖第三方模块)
 
 ![](http://oqhtscus0.bkt.clouddn.com/f27594afeda6b513ffec98c3e60ccbb0.jpg-400)
 
-
 ## 使用方法:
 
-* 双击 `Common Search.alfredworkflow` 文件, 自动完成安装。（使用该插件需要 node 环境）
+1. [下载 commonSearch](https://github.com//MuYunyun/commonSearch/raw/master/Common%20Search.alfredworkflow)
+2. 双击下载好的 `Common Search.alfredworkflow` 文件, 自动完成安装。(使用该插件需要 node 环境)
 
 ## 功能
 
@@ -37,8 +37,6 @@
   ![](http://oqhtscus0.bkt.clouddn.com/c0f217c75c131b1ee93ab4c1d353ec42.jpg-400)
 
 
-## todo
+## More
 
-- [ ] 更多模块 ...
-
-如果有什么好的意见，欢迎提 issue 或者 pr 。
+十分感谢 pr 实用的 JSON 接口。
