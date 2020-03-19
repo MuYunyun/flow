@@ -1,5 +1,5 @@
 
-集成 Github、掘金、知乎、淘宝等智能搜索的一款 alfred workflow 插件。(不依赖第三方模块)
+集成 Github、掘金、知乎、淘宝等智能搜索的一款 alfred workflow 插件。
 
 ![](http://oqhtscus0.bkt.clouddn.com/f27594afeda6b513ffec98c3e60ccbb0.jpg-400)
 
@@ -39,4 +39,4 @@
 
 ## More
 
-十分感谢 pr 实用的 JSON 接口。
+欢迎贡献 idea!

@@ -1,0 +1,22 @@
+{
+  "name": "common_search",
+  "version": "0.1.0",
+  "description": "集成 Github、掘金、知乎、淘宝等智能搜索的一款 alfred workflow 插件。(不依赖第三方模块)",
+  "main": "common_search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuYunyun/commonSearch.git"
+  },
+  "author": "muyunyun (muyy95@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuYunyun/commonSearch/issues"
+  },
+  "homepage": "https://github.com/MuYunyun/commonSearch#readme",
+  "dependencies": {
+    "run-node": "^2.0.0"
+  }
+}

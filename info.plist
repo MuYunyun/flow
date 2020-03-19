@@ -76,6 +76,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -95,7 +99,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>/usr/local/bin/node common_search.js zhihu "{query}"</string>
+				<string>./node_modules/.bin/run-node common_search.js zhihu "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -114,12 +118,16 @@
 			<key>uid</key>
 			<string>0A1F8331-941F-436E-B246-33278755D60A</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
 				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
@@ -140,7 +148,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>/usr/local/bin/node common_search.js taobao "{query}"</string>
+				<string>./node_modules/.bin/run-node common_search.js taobao "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -159,7 +167,7 @@
 			<key>uid</key>
 			<string>E8F85589-F67A-4DC4-A472-E781462F41BF</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -185,6 +193,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -204,7 +216,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>/usr/local/bin/node common_search.js juejin "{query}"</string>
+				<string>./node_modules/.bin/run-node common_search.js juejin "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -223,12 +235,16 @@
 			<key>uid</key>
 			<string>17C80585-EC4F-498F-AB91-DBA6EBEA4C9D</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
 				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
@@ -249,7 +265,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>/usr/local/bin/node common_search.js github "{query}"</string>
+				<string>./node_modules/.bin/run-node common_search.js github "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -268,7 +284,7 @@
 			<key>uid</key>
 			<string>29EFA025-C5F1-468D-B065-59EF0C026D11</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -311,6 +327,10 @@
 			<integer>140</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/MuYunyun</string>
 </dict>
