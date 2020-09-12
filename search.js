@@ -18,9 +18,18 @@ const options = {
     path: '/sug?code=utf-8&q=' + encodeURI(keyword),
     url: 'https://s.taobao.com/search?q=',
   },
+  // 'juejin': {
+  //   host: 'search-merger-ms.juejin.im',
+  //   path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
+  // },
   'juejin': {
-    host: 'search-merger-ms.juejin.im',
-    path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
+    hostname: 'web-api.juejin.im',
+    method: 'post',
+    path: '/query',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Agent': 'Juejin/Web',
+    }
   },
   'github': {
     host: 'api.github.com',
@@ -38,6 +47,34 @@ function getData(handleDataFn) {
       handleDataFn(jsonContent)
     })
   })
+}
+
+function getJueJin(handleDataFn) {
+  const req = https.request(options, (res) => {
+    res.setEncoding('utf8');
+    res.on('data', (chunk) => {
+      content += chunk;
+    }).on('end', () => {
+      const jsonContent = JSON.parse(content);
+      handleDataFn(jsonContent);
+    });
+  });
+  req.write(JSON.stringify({
+    extensions: {
+      query: { id: 'a53db5867466eddc50d16a38cfeb0890' },
+    },
+    operationName: '',
+    query: '',
+    variables: {
+      after: '',
+      first: 100,
+      period: 'ALL',
+      query: keyword,
+      type: 'ARTICLE',
+      order: 'POPULAR',
+    },
+  }));
+  req.end();
 }
 
 function showItem(resultArray) {
@@ -115,43 +152,28 @@ if (item === 'zhihu') {
     showItem(result_array)
   })
 } else if (item === 'juejin') {
-  getData((jsonContent) => {
-    const result = jsonContent.d
+  getJueJin((jsonContent) => {
+    const result = jsonContent.data.search.edges;
     for (let i = 0; i < result.length; i++) {
-      if (result[i].user.jobTitle === '') {
-        result_array.push({
-          title: result[i].title,
-          subtitle: `点赞数${result[i].collectionCount} 作者: ${result[i].user.username}`,
-          arg: result[i].originalUrl,
-          icon: {
-            path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
+      const item = result[i].node.entity;
+      const author = item.user;
+      result_array.push({
+        title: item.title,
+        subtitle: `点赞数${item.collectionCount} 作者: ${author.username}${author.jobTitle ? `(${author.jobTitle})` : ''}`,
+        arg: item.originalUrl,
+        icon: {
+          path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
+        },
+        mods: {
+          cmd: {
+            arg: item.originalUrl,
+            subtitle: item.content,
           },
-          mods: {
-            cmd: {
-              arg: result[i].originalUrl,
-              subtitle: result[i].content
-            }
-          }
-        })
-      } else {
-        result_array.push({
-          title: result[i].title,
-          subtitle: `点赞数${result[i].collectionCount} 作者: ${result[i].user.username}(${result[i].user.jobTitle})`,
-          arg: result[i].originalUrl,
-          icon: {
-            path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
-          },
-          mods: {
-            cmd: {
-              arg: result[i].originalUrl,
-              subtitle: result[i].content
-            }
-          }
-        })
-      }
+        },
+      });
     }
-    showItem(result_array)
-  })
+    showItem(result_array);
+  });
 } else if (item === 'github') {
   getData((jsonContent) => {
     const result = jsonContent.items
