@@ -353,7 +353,7 @@
 				<key>runningsubtext</key>
 				<string>Searching ...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node flow.js "{query}"</string>
+				<string>/usr/local/bin/node flow.js "Pinduoduo" "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -361,7 +361,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Open a flow project</string>
+				<string>Open a flow project in default browser</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -467,7 +467,7 @@
 				<key>runningsubtext</key>
 				<string>Searching ...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node flow.js "{query}"</string>
+				<string>/usr/local/bin/node flow.js "Pinduoduo" "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>

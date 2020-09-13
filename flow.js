@@ -3,13 +3,13 @@ const path = require("path");
 const { promisify } = require("util");
 
 const readdirAsync = promisify(fs.readdir);
-const keyword = process.argv[2];
+const defaultPath = process.argv[2];
+const keyword = process.argv[3];
 const homedir = require("os").homedir();
-const projectDir = path.join(homedir, "Pinduoduo");
+const projectDir = path.join(homedir, defaultPath);
 
 (async function () {
   const items = (await readdirAsync(projectDir))
-    .filter(name => !name.startsWith("."))
     .filter(name => name.includes(keyword))
     .map(name => ({
       title: name,
