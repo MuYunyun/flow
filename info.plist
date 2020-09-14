@@ -86,6 +86,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<array>
 			<dict>
@@ -138,7 +151,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node common_search.js zhihu "{query}"</string>
+				<string>./node_modules/.bin/run-node search.js zhihu "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -187,7 +200,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node common_search.js taobao "{query}"</string>
+				<string>./node_modules/.bin/run-node search.js taobao "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -255,7 +268,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node common_search.js juejin "{query}"</string>
+				<string>./node_modules/.bin/run-node search.js juejin "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -304,7 +317,7 @@
 				<key>runningsubtext</key>
 				<string>Searching... Please Wait</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node common_search.js github "{query}"</string>
+				<string>./node_modules/.bin/run-node search.js github "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -324,6 +337,48 @@
 			<string>29EFA025-C5F1-468D-B065-59EF0C026D11</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>80F67126-8A71-4268-95E8-6BC8B87A976C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd ~/Pinduoduo/$1 &amp;&amp; echo -n "$(git config --get remote.origin.url | sed 's/\.git//' | sed 's/:/\//' | sed 's/gitlab@/http:\/\//')"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -373,48 +428,6 @@
 			<string>03DBE303-E9DD-4A57-B051-C440279CF378</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>cd ~/Pinduoduo/$1 &amp;&amp; echo -n "$(git config --get remote.origin.url | sed 's/\.git//' | sed 's/:/\//' | sed 's/gitlab@/http:\/\//')"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>80F67126-8A71-4268-95E8-6BC8B87A976C</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -488,6 +501,74 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>beast</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching ...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node beast.js "Pinduoduo/beast-doc/beast" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Open a flow project in default browser</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -555,6 +636,20 @@
 			<integer>95</integer>
 			<key>ypos</key>
 			<integer>675</integer>
+		</dict>
+		<key>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</key>
+		<dict>
+			<key>xpos</key>
+			<integer>265</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</key>
+		<dict>
+			<key>xpos</key>
+			<integer>95</integer>
+			<key>ypos</key>
+			<integer>810</integer>
 		</dict>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<dict>
