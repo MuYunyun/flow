@@ -1,6 +1,6 @@
-# Flow
-
 ![](http://with.muyunyun.cn/f27594afeda6b513ffec98c3e60ccbb0.jpg-400)
+
+![GitHub views](https://raw.githubusercontent.com/MuYunyun/flow/traffic/traffic-flow/views.svg)
 
 ## 简化工作流
 
