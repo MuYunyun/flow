@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 16,
-    "uniques": 13
+    "count": 18,
+    "uniques": 14
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
@@ -18,14 +18,20 @@
     "uniques": 1
   },
   {
+    "path": "/MuYunyun/flow/blob/6f79b700978defa05d6048aff0caed4471c41796/search.js",
+    "title": "flow/search.js at 6f79b700978defa05d6048aff0caed4471c41796 · MuYunyun/flow · ...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/MuYunyun/flow/blob/master/info.plist",
     "title": "flow/info.plist at master · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/3",
-    "title": "掘金的api换了 · Issue #3 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/blob/master/search.js",
+    "title": "flow/search.js at master · MuYunyun/flow · GitHub",
     "count": 1,
     "uniques": 1
   }
