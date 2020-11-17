@@ -2,19 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 12,
-    "uniques": 11
+    "count": 11,
+    "uniques": 9
   },
   {
-    "path": "/MuYunyun/flow/blob/6f79b700978defa05d6048aff0caed4471c41796/search.js",
-    "title": "flow/search.js at 6f79b700978defa05d6048aff0caed4471c41796 · MuYunyun/flow · ...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/search.js",
-    "title": "flow/search.js at master · MuYunyun/flow · GitHub",
-    "count": 1,
+    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
+    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow · GitHub",
+    "count": 7,
     "uniques": 1
   }
 ]
