@@ -2,13 +2,25 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 16,
-    "uniques": 15
+    "count": 21,
+    "uniques": 19
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
     "title": "flow/flow.alfredworkflow at master · MuYunyun/flow · GitHub",
-    "count": 7,
+    "count": 8,
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/2",
+    "title": "Alfred 4用不了 · Issue #2 · MuYunyun/flow",
+    "count": 1,
     "uniques": 1
   }
 ]
