@@ -2,13 +2,25 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 28,
-    "uniques": 24
+    "count": 33,
+    "uniques": 28
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
     "title": "flow/flow.alfredworkflow at master · MuYunyun/flow · GitHub",
     "count": 8,
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/search",
+    "title": "Search · coswift",
+    "count": 4,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "Pull requests · MuYunyun/flow",
+    "count": 2,
     "uniques": 2
   },
   {
@@ -20,12 +32,6 @@
   {
     "path": "/MuYunyun/flow/issues/2",
     "title": "Alfred 4用不了 · Issue #2 · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "Pull requests · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
