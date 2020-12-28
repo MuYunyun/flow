@@ -2,8 +2,14 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 44,
-    "uniques": 32
+    "count": 48,
+    "uniques": 33
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
+    "count": 6,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/tree/master/node_modules/run-node",
@@ -30,14 +36,14 @@
     "uniques": 2
   },
   {
-    "path": "/MuYunyun/flow/branches",
-    "title": "Branches · MuYunyun/flow",
+    "path": "/MuYunyun/flow/find/master",
+    "title": "File Finder",
     "count": 2,
     "uniques": 2
   },
   {
-    "path": "/MuYunyun/flow/find/master",
-    "title": "File Finder",
+    "path": "/MuYunyun/flow/issues/2",
+    "title": "Alfred 4用不了 · Issue #2 · MuYunyun/flow",
     "count": 2,
     "uniques": 2
   },
@@ -48,14 +54,8 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues",
-    "title": "Issues · MuYunyun/flow",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/search",
-    "title": "Search · workflow",
+    "path": "/MuYunyun/flow/issues/9",
+    "title": "无法触发智能联想 · Issue #9 · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   }
