@@ -1,21 +1,21 @@
 [
   {
     "referrer": "link.zhihu.com",
-    "count": 34,
-    "uniques": 23
+    "count": 36,
+    "uniques": 25
   },
   {
     "referrer": "github.com",
-    "count": 4,
-    "uniques": 4
+    "count": 3,
+    "uniques": 3
   },
   {
-    "referrer": "Google",
+    "referrer": "blog.imcompany.cn",
     "count": 1,
     "uniques": 1
   },
   {
-    "referrer": "blog.imcompany.cn",
+    "referrer": "Google",
     "count": 1,
     "uniques": 1
   }
