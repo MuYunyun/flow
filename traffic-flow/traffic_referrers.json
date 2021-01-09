@@ -1,8 +1,8 @@
 [
   {
     "referrer": "link.zhihu.com",
-    "count": 33,
-    "uniques": 20
+    "count": 27,
+    "uniques": 17
   },
   {
     "referrer": "github.com",
@@ -10,12 +10,12 @@
     "uniques": 2
   },
   {
-    "referrer": "blog.imcompany.cn",
-    "count": 1,
-    "uniques": 1
+    "referrer": "Baidu",
+    "count": 2,
+    "uniques": 2
   },
   {
-    "referrer": "Baidu",
+    "referrer": "blog.imcompany.cn",
     "count": 1,
     "uniques": 1
   },
