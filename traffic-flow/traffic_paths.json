@@ -2,14 +2,14 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 41,
-    "uniques": 28
+    "count": 35,
+    "uniques": 24
   },
   {
     "path": "/MuYunyun/flow/issues/1",
     "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow · G...",
-    "count": 8,
-    "uniques": 7
+    "count": 7,
+    "uniques": 6
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -27,18 +27,6 @@
     "path": "/MuYunyun/flow/tree/master/node_modules",
     "title": "flow/node_modules at master · MuYunyun/flow · GitHub",
     "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
-    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/search.js",
-    "title": "flow/search.js at master · MuYunyun/flow",
-    "count": 1,
     "uniques": 1
   },
   {
