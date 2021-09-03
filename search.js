@@ -88,6 +88,7 @@ function showItem(resultArray) {
 if (item === 'zhihu') {
   getData((jsonContent) => {
     const result = jsonContent[0]
+    // console.log('result', result)
     const { url } = options
     for (let i = 1; i < result.length - 2; i++) {
       const type = result[i][0]
@@ -115,7 +116,7 @@ if (item === 'zhihu') {
         case 'question':
           result_array.push({
             title: result[i][1],
-            subtitle: ` 【内容】 ${result[i][4]}个回答`,
+            subtitle: ` 【内容】 ${result[i][5]}个回答`,
             arg: `${url}${type}/${result[i][3]}`,
             icon: {
               path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
