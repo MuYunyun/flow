@@ -73,6 +73,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>99005792-A935-48B8-A8E6-B02B9423ACBD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62AC894E-3015-44DC-96BC-313D1622A652</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</key>
 		<array>
 			<dict>
@@ -91,19 +104,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>258D642D-325C-41B4-A42D-465A99642478</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B7F7DB64-3BFF-45CC-B9C9-F9C92041AB7C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>62AC894E-3015-44DC-96BC-313D1622A652</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -598,6 +598,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"clear all proxy","arg":"9"},{"title":"auto proxy discovery","arg":"1"}]</string>
+				<key>keyword</key>
+				<string>pac</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>pac-toggle</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>99005792-A935-48B8-A8E6-B02B9423ACBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -619,38 +648,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>pac</string>
-				<key>subtext</key>
-				<string>快速切换 pac 配置</string>
-				<key>text</key>
-				<string>pac-toggle</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B7F7DB64-3BFF-45CC-B9C9-F9C92041AB7C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
 				<key>script</key>
 				<string># set it by yourself
-#快速切换 autoproxy pac 配置。 快速切换 Mac 系统中 System Preferences -&gt; Network -&gt; #Advanced... -&gt; Proxise -&gt; Automatic Proxy Configuration 这一项。
-#pac 1 ： 切换到 pac1
-#pac 2 ： 切换到 pac2
-#pac [空 | others] : 禁用 autoproxy
-#注意：使用前请打开 workflow 设置自己的 pac url
+# 快速切换 autoproxy pac 配置。 快速切换 Mac 系统中 System Preferences -&gt; Network -&gt; #Advanced... -&gt; Proxise -&gt; Automatic Proxy Configuration 这一项。
+# pac 1 ： 切换到 pac1
+# pac 2 ： 切换到 pac2
+# pac [空 | others] : 禁用 autoproxy
+# 注意：使用前请打开 workflow 设置自己的 pac url
 
 proxy_1="http://127.0.0.1:16823/proxy_on.pac"
 
@@ -676,27 +684,30 @@ case "{query}" in
   2)
   proxy_url="$proxy_1"
   ;;
+  9)
+  proxy_url="$clear_all_pac"
+  ;;
   # set more pac in here.
   *)
-  proxy_url="$clear_all_pac"
+  proxy_url="to_do"
   ;;
 esac
 
 if [ -n "$proxy_url" ]; then
-    echo "$proxy_url"
+  echo "$proxy_url"
 if [ "$proxy_url" = "$clear_all_pac" ]; then
   networksetup -setautoproxystate Wi-Fi off
   networksetup -setproxyautodiscovery Wi-Fi off
   networksetup -setsocksfirewallproxystate Wi-Fi off
   # networksetup -setwebproxystate Wi-Fi off
-  echo "disable autoproxy" 
+  echo "disable autoproxy"
 elif [ "$proxy_url" = "$auto_proxy_discovery" ]; then
   networksetup -setautoproxystate Wi-Fi off
   networksetup -setproxyautodiscovery Wi-Fi on
   networksetup -setsocksfirewallproxystate Wi-Fi off
   echo "set proxyautodiscovery"
 else
-  networksetup -setautoproxyurl ${DEVICE%,*} ${proxy_url}
+  # networksetup -setautoproxyurl ${DEVICE%,*} ${proxy_url}
   echo "switch to ${proxy_url}"
 fi
 else
@@ -784,6 +795,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>515</integer>
 		</dict>
+		<key>99005792-A935-48B8-A8E6-B02B9423ACBD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>90</integer>
+			<key>ypos</key>
+			<integer>950</integer>
+		</dict>
 		<key>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</key>
 		<dict>
 			<key>xpos</key>
@@ -797,13 +815,6 @@ fi</string>
 			<integer>95</integer>
 			<key>ypos</key>
 			<integer>675</integer>
-		</dict>
-		<key>B7F7DB64-3BFF-45CC-B9C9-F9C92041AB7C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>95</integer>
-			<key>ypos</key>
-			<integer>950</integer>
 		</dict>
 		<key>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</key>
 		<dict>
