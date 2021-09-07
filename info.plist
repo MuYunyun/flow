@@ -530,74 +530,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>beast</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching ...</string>
-				<key>script</key>
-				<string>/usr/local/bin/node beast.js "Pinduoduo/beast-doc/beast" "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Open a flow project in default browser</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -727,9 +659,148 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>beast</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching ...</string>
+				<key>script</key>
+				<string>/usr/local/bin/node beast.js "Pinduoduo/beast-doc/beast" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Open a flow project in default browser</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>![GitHub views](https://raw.githubusercontent.com/MuYunyun/flow/traffic/traffic-flow/views.svg)
+
+- [使用说明](#使用说明)
+- [搜索](#搜索)
+  - [知乎智能搜索匹配](#知乎智能搜索匹配)
+  - [淘宝智能搜索匹配](#淘宝智能搜索匹配)
+  - [掘金智能搜索匹配](#掘金智能搜索匹配)
+  - [Github 智能搜索匹配](#github-智能搜索匹配)
+- [工作流提效](#工作流提效)
+  - [使用 VSCode 快速打开项目文件](#使用-vscode-快速打开项目文件)
+  - [快速打开到项目对应的 github/gitlab 链接](#快速打开到项目对应的-githubgitlab-链接)
+  - [一键切换网络代理](#一键切换网络代理)
+
+## 使用说明
+
+1. [下载 flow](https://github.com//MuYunyun/commonSearch/raw/master/flow.alfredworkflow)
+2. 双击下载好的 `flow.alfredworkflow` 文件, 自动完成安装。
+
+&gt; 使用该插件需要[安装 node](https://nodejs.org/en/)
+
+## 搜索
+
+### 知乎智能搜索匹配
+
+* 触发 key : `zh`
+
+![](http://with.muyunyun.cn/ef946bc5fe4d0fdb6474350bf31cf9fc.jpg-400)
+
+### 淘宝智能搜索匹配
+
+* 触发 key : `tb`
+
+![](http://with.muyunyun.cn/97f9f0513c1369886a812bbf6cd73b05.jpg-400)
+
+### 掘金智能搜索匹配
+
+* 触发 key : `gold`, 按住 `cmd` 可以查看内容简介
+
+![](http://with.muyunyun.cn/40a83edf9552b4a071dd2ff5093a445b.gif)
+
+### Github 智能搜索匹配
+
+* 触发 Key : `gh`
+
+![](http://with.muyunyun.cn/c0f217c75c131b1ee93ab4c1d353ec42.jpg-400)
+
+## 工作流提效
+
+### 使用 VSCode 快速打开项目文件
+
+* 触发 key: code
+* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
+
+![](http://with.muyunyun.cn/a2e3e1597f7766bdd08751217c113b96.jpg-400)
+
+### 快速打开到项目对应的 github/gitlab 链接
+
+* 触发 key: open
+* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
+
+![](http://with.muyunyun.cn/98d693d37b0c78f7f6c591d31847d7e9.jpg-400)
+
+### 一键切换网络代理
+
+在使用公司内部网络加速、开 vpn、使用 Charles 调试等场景下，需要频繁在路径 `System Preferences - Network - Advanced - Proxies` 下进行手动切换代理配置，十分繁琐。为此提供该 workflow 来简化配置链路。
+
+* 触发 key: pac
+* 选项
+  * `clear all proxy`: 清空全部代理，用于 Charles.app 代理调试。
+  * `auto proxy discovery`: 设置自动代理发现模式，用于公司内部网络加速。
+
+![](http://with.muyunyun.cn/00dd758122c9cbde256f5d02518ad769.gif)</string>
 	<key>uidata</key>
 	<dict>
 		<key>03DBE303-E9DD-4A57-B051-C440279CF378</key>
@@ -758,7 +829,7 @@ fi</string>
 			<key>xpos</key>
 			<integer>265</integer>
 			<key>ypos</key>
-			<integer>675</integer>
+			<integer>660</integer>
 		</dict>
 		<key>259A5907-9A8C-4B24-A85E-B11FDC01D311</key>
 		<dict>
@@ -777,16 +848,16 @@ fi</string>
 		<key>4C4E518D-0498-4D93-B09C-549A95C44A7D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>455</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>810</integer>
 		</dict>
 		<key>62AC894E-3015-44DC-96BC-313D1622A652</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>810</integer>
 		</dict>
 		<key>80F67126-8A71-4268-95E8-6BC8B87A976C</key>
 		<dict>
@@ -798,9 +869,9 @@ fi</string>
 		<key>99005792-A935-48B8-A8E6-B02B9423ACBD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>90</integer>
+			<integer>95</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>810</integer>
 		</dict>
 		<key>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</key>
 		<dict>
@@ -814,21 +885,21 @@ fi</string>
 			<key>xpos</key>
 			<integer>95</integer>
 			<key>ypos</key>
-			<integer>675</integer>
+			<integer>660</integer>
 		</dict>
 		<key>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</key>
 		<dict>
 			<key>xpos</key>
 			<integer>265</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>950</integer>
 		</dict>
 		<key>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</key>
 		<dict>
 			<key>xpos</key>
 			<integer>95</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>950</integer>
 		</dict>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<dict>
@@ -841,7 +912,7 @@ fi</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.2.0</string>
+	<string>0.3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/MuYunyun/flow</string>
 </dict>
