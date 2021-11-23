@@ -112,6 +112,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CF658493-2BBB-4571-A332-86BFBCCB5AFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>259A5907-9A8C-4B24-A85E-B11FDC01D311</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</key>
 		<array>
 			<dict>
@@ -244,6 +257,55 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>E8F85589-F67A-4DC4-A472-E781462F41BF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>jd</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching... Please Wait</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node search.js jd "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Input keywords to search in jd</string>
+				<key>title</key>
+				<string>搜索</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CF658493-2BBB-4571-A332-86BFBCCB5AFB</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -735,6 +797,7 @@ fi</string>
 - [搜索](#搜索)
   - [知乎智能搜索匹配](#知乎智能搜索匹配)
   - [淘宝智能搜索匹配](#淘宝智能搜索匹配)
+  - [京东智能搜索匹配](#京东智能搜索匹配)
   - [掘金智能搜索匹配](#掘金智能搜索匹配)
   - [Github 智能搜索匹配](#github-智能搜索匹配)
 - [工作流提效](#工作流提效)
@@ -762,6 +825,12 @@ fi</string>
 * 触发 key : `tb`
 
 ![](http://with.muyunyun.cn/97f9f0513c1369886a812bbf6cd73b05.jpg-400)
+
+### 京东智能搜索匹配
+
+* 触发 key : `jd`
+
+![](http://with.muyunyun.cn/19e5ecbc5d38251e5ceeb145579faeb1.jpg-400)
 
 ### 掘金智能搜索匹配
 
@@ -806,113 +875,120 @@ fi</string>
 		<key>03DBE303-E9DD-4A57-B051-C440279CF378</key>
 		<dict>
 			<key>xpos</key>
-			<integer>95</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>515</integer>
+			<integer>695</integer>
 		</dict>
 		<key>0A1F8331-941F-436E-B246-33278755D60A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>35</integer>
 		</dict>
 		<key>17C80585-EC4F-498F-AB91-DBA6EBEA4C9D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>90</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>430</integer>
 		</dict>
 		<key>258D642D-325C-41B4-A42D-465A99642478</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>235</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>840</integer>
 		</dict>
 		<key>259A5907-9A8C-4B24-A85E-B11FDC01D311</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>295</integer>
 		</dict>
 		<key>29EFA025-C5F1-468D-B065-59EF0C026D11</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>560</integer>
 		</dict>
 		<key>4C4E518D-0498-4D93-B09C-549A95C44A7D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>990</integer>
 		</dict>
 		<key>62AC894E-3015-44DC-96BC-313D1622A652</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>990</integer>
 		</dict>
 		<key>80F67126-8A71-4268-95E8-6BC8B87A976C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>435</integer>
+			<integer>405</integer>
 			<key>ypos</key>
-			<integer>515</integer>
+			<integer>695</integer>
 		</dict>
 		<key>99005792-A935-48B8-A8E6-B02B9423ACBD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>95</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>810</integer>
+			<integer>990</integer>
 		</dict>
 		<key>AC03358E-EAF7-48F0-A86A-951E4AD07CBC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>235</integer>
 			<key>ypos</key>
-			<integer>515</integer>
+			<integer>695</integer>
 		</dict>
 		<key>AD7F82B8-51F1-4A5A-89DE-7CE2D2A6E369</key>
 		<dict>
 			<key>xpos</key>
-			<integer>95</integer>
+			<integer>65</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>840</integer>
+		</dict>
+		<key>CF658493-2BBB-4571-A332-86BFBCCB5AFB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>295</integer>
 		</dict>
 		<key>D9E0CF4E-F639-4FEB-8ECB-9B6CA14A7131</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>1140</integer>
 		</dict>
 		<key>E73DE4F3-55ED-4D4A-B407-28EFDC650B17</key>
 		<dict>
 			<key>xpos</key>
-			<integer>95</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>1140</integer>
 		</dict>
 		<key>E8F85589-F67A-4DC4-A472-E781462F41BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>90</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>165</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.3.0</string>
+	<string>0.4.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/MuYunyun/flow</string>
 </dict>

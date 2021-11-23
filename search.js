@@ -22,6 +22,12 @@ const options = {
   //   host: 'search-merger-ms.juejin.im',
   //   path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
   // },
+  'jd': {
+    host: 'dd-search.jd.com',
+    path: '/?ver=2&key=' + encodeURI(keyword),
+    headers: { 'Referer': 'https://www.jd.com/' },
+    url: 'https://search.jd.com/Search?enc=utf-8&keyword='
+  },
   'juejin': {
     hostname: 'web-api.juejin.im',
     method: 'post',
@@ -147,6 +153,19 @@ if (item === 'zhihu') {
         arg: `${options.url}${result[i][0]}`,
         icon: {
           path: join(__dirname, '/E8F85589-F67A-4DC4-A472-E781462F41BF.png'),
+        },
+      })
+    }
+    showItem(result_array)
+  })
+} else if (item === 'jd') {
+  getData((jsonContent) => {
+    for (let i = 0; i < jsonContent.length; i++) {
+      result_array.push({
+        title: jsonContent[i].keyword,
+        arg: `${options.url}${jsonContent[i].keyword}`,
+        icon: {
+          path: join(__dirname, '/CF658493-2BBB-4571-A332-86BFBCCB5AFB.png'),
         },
       })
     }
