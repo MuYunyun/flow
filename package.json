@@ -7,14 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MuYunyun/commonSearch.git"
+    "url": "git+https://github.com/MuYunyun/flow.git"
   },
   "author": "muyunyun (muyy95@gmail.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MuYunyun/commonSearch/issues"
-  },
-  "homepage": "https://github.com/MuYunyun/commonSearch#readme",
   "dependencies": {
     "run-node": "^2.0.0"
   }

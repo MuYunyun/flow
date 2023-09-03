@@ -8,9 +8,9 @@
   - [掘金智能搜索匹配](#掘金智能搜索匹配)
   - [Github 智能搜索匹配](#github-智能搜索匹配)
 - [工作流提效](#工作流提效)
+  - [一键切换网络代理](#一键切换网络代理)
   - [使用 VSCode 快速打开项目文件](#使用-vscode-快速打开项目文件)
   - [快速打开到项目对应的 github/gitlab 链接](#快速打开到项目对应的-githubgitlab-链接)
-  - [一键切换网络代理](#一键切换网络代理)
 
 ## 使用说明
 
@@ -53,20 +53,6 @@
 
 ## 工作流提效
 
-### 使用 VSCode 快速打开项目文件
-
-* 触发 key: code
-* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
-
-![](http://with.muyunyun.cn/a2e3e1597f7766bdd08751217c113b96.jpg-400)
-
-### 快速打开到项目对应的 github/gitlab 链接
-
-* 触发 key: open
-* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
-
-![](http://with.muyunyun.cn/98d693d37b0c78f7f6c591d31847d7e9.jpg-400)
-
 ### 一键切换网络代理
 
 在使用公司内部网络加速、开 vpn、使用 Charles 调试等场景下，需要频繁在路径 `System Preferences - Network - Advanced - Proxies` 下进行手动切换代理配置，十分繁琐。为此提供该 workflow 来简化配置链路。
@@ -77,3 +63,13 @@
   * `auto proxy discovery`: 设置自动代理发现模式，用于公司内部网络加速。
 
 ![](http://with.muyunyun.cn/00dd758122c9cbde256f5d02518ad769.gif)
+
+### 使用 VSCode 快速打开项目文件
+
+* 触发 key: code
+* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
+
+### 快速打开到项目对应的 github/gitlab 链接
+
+* 触发 key: open
+* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
