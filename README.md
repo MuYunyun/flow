@@ -61,9 +61,12 @@
 
 * 触发 key: pac
 * 选项
-  * `clear all proxy`: 清空全部代理，用于 Charles.app 代理调试。
-  * `auto proxy discovery`: 设置自动代理发现模式，用于公司内部网络加速。
-  * `global mode`: 设置全局代理模式。
+  * `clear all proxy`: 清空全部代理；
+    * 场景：使用抓包工具（如 Charles.app）代理调试前一般需要清空全部代理，避免代理产生冲突。
+  * `auto proxy discovery`: 设置自动代理模式；
+    * 场景：让浏览器自动发现代理服务器，用于公司内部网络加速。
+  * `global mode`: 设置全局代理模式；
+    * 场景：用于科学上网；
 
 ![](http://with.muyunyun.cn/00dd758122c9cbde256f5d02518ad769.gif)
 
