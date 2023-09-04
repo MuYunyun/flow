@@ -18,16 +18,13 @@ const options = {
     path: '/sug?code=utf-8&q=' + encodeURI(keyword),
     url: 'https://s.taobao.com/search?q=',
   },
-  // 'juejin': {
-  //   host: 'search-merger-ms.juejin.im',
-  //   path: '/v1/search?query=' + encodeURI(keyword) + '&page=0&raw_result=false&src=web'
-  // },
   'jd': {
     host: 'dd-search.jd.com',
     path: '/?ver=2&key=' + encodeURI(keyword),
     headers: { 'Referer': 'https://www.jd.com/' },
     url: 'https://search.jd.com/Search?enc=utf-8&keyword='
   },
+  // Todo: 掘金网站当前实现目前访问失败，待调整（欢迎 mr）。
   'juejin': {
     hostname: 'web-api.juejin.im',
     method: 'post',
@@ -91,10 +88,13 @@ function showItem(resultArray) {
   }))
 }
 
+const getPath = (relativePath) => {
+  return join(__dirname, relativePath)
+}
+
 if (item === 'zhihu') {
   getData((jsonContent) => {
     const result = jsonContent[0]
-    // console.log('result', result)
     const { url } = options
     for (let i = 1; i < result.length - 2; i++) {
       const type = result[i][0]
@@ -105,7 +105,7 @@ if (item === 'zhihu') {
             subtitle: ` 【话题】 ${result[i][6]}个精华问答`,
             arg: `${url}${type}/${result[i][2]}`,
             icon: {
-              path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              path: join(__dirname, '../0A1F8331-941F-436E-B246-33278755D60A.png'),
             }
           })
           break
@@ -115,7 +115,7 @@ if (item === 'zhihu') {
             subtitle: ` 【用户】 ${result[i][5]}`,
             arg: `${url}${type}/${result[i][2]}`,
             icon: {
-              path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              path: join(__dirname, '../0A1F8331-941F-436E-B246-33278755D60A.png'),
             }
           })
           break
@@ -125,7 +125,7 @@ if (item === 'zhihu') {
             subtitle: ` 【内容】 ${result[i][5]}个回答`,
             arg: `${url}${type}/${result[i][3]}`,
             icon: {
-              path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              path: join(__dirname, '../0A1F8331-941F-436E-B246-33278755D60A.png'),
             }
           })
           break
@@ -135,7 +135,7 @@ if (item === 'zhihu') {
             subtitle: ` 【内容】 ${result[i][4]}次赞同`,
             arg: `https://zhuanlan.zhihu.com/p/${result[i][3]}`,
             icon: {
-              path: join(__dirname, '/0A1F8331-941F-436E-B246-33278755D60A.png'),
+              path: join(__dirname, '../0A1F8331-941F-436E-B246-33278755D60A.png'),
             }
           })
           break
@@ -152,7 +152,7 @@ if (item === 'zhihu') {
         subtitle: ` 共搜索到 ${result[i][1]} 个相关物品`,
         arg: `${options.url}${result[i][0]}`,
         icon: {
-          path: join(__dirname, '/E8F85589-F67A-4DC4-A472-E781462F41BF.png'),
+          path: join(__dirname, '../E8F85589-F67A-4DC4-A472-E781462F41BF.png'),
         },
       })
     }
@@ -165,7 +165,7 @@ if (item === 'zhihu') {
         title: jsonContent[i].keyword,
         arg: `${options.url}${jsonContent[i].keyword}`,
         icon: {
-          path: join(__dirname, '/CF658493-2BBB-4571-A332-86BFBCCB5AFB.png'),
+          path: join(__dirname, '../CF658493-2BBB-4571-A332-86BFBCCB5AFB.png'),
         },
       })
     }
@@ -182,7 +182,7 @@ if (item === 'zhihu') {
         subtitle: `点赞数${item.collectionCount} 作者: ${author.username}${author.jobTitle ? `(${author.jobTitle})` : ''}`,
         arg: item.originalUrl,
         icon: {
-          path: join(__dirname, '/17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
+          path: join(__dirname, '../17C80585-EC4F-498F-AB91-DBA6EBEA4C9D.png'),
         },
         mods: {
           cmd: {
@@ -203,7 +203,7 @@ if (item === 'zhihu') {
         subtitle: `${result[i].stargazers_count} Star (${result[i].description})`,
         arg: result[i].html_url,
         icon: {
-          path: join(__dirname, '29EFA025-C5F1-468D-B065-59EF0C026D11.png')
+          path: join(__dirname, '../29EFA025-C5F1-468D-B065-59EF0C026D11.png')
         }
       })
     }
