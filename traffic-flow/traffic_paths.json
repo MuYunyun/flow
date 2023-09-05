@@ -24,12 +24,6 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/commit/master",
-    "title": "feat: better arch · MuYunyun/flow@2cc52f3 · GitHub",
-    "count": 2,
-    "uniques": 2
-  },
-  {
     "path": "/MuYunyun/flow/blob/master/src/flow.js",
     "title": "flow/src/flow.js at master · MuYunyun/flow",
     "count": 2,
@@ -39,6 +33,12 @@
     "path": "/MuYunyun/flow/issues/new",
     "title": "New Issue · MuYunyun/flow",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/commit/master",
+    "title": "feat: better arch · MuYunyun/flow@2cc52f3 · GitHub",
+    "count": 1,
     "uniques": 1
   },
   {
