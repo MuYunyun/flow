@@ -2,8 +2,14 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 32,
-    "uniques": 13
+    "count": 36,
+    "uniques": 14
+  },
+  {
+    "path": "/MuYunyun/flow/blob/master/src/search.js",
+    "title": "flow/src/search.js at master · MuYunyun/flow",
+    "count": 16,
+    "uniques": 5
   },
   {
     "path": "/MuYunyun/flow/blob/master/package.json",
@@ -12,26 +18,20 @@
     "uniques": 3
   },
   {
-    "path": "/MuYunyun/flow/blob/master/src/search.js",
-    "title": "flow/src/search.js at master · MuYunyun/flow",
-    "count": 14,
-    "uniques": 4
-  },
-  {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 11,
+    "count": 13,
     "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/flow.js",
-    "title": "flow/src/flow.js at master · MuYunyun/flow",
-    "count": 10,
-    "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/tree/master/src",
     "title": "flow/src at master · MuYunyun/flow",
+    "count": 12,
+    "uniques": 4
+  },
+  {
+    "path": "/MuYunyun/flow/blob/master/src/flow.js",
+    "title": "flow/src/flow.js at master · MuYunyun/flow",
     "count": 10,
     "uniques": 3
   },
