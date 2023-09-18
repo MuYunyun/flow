@@ -2,43 +2,25 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 39,
-    "uniques": 14
+    "count": 23,
+    "uniques": 12
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 19,
+    "count": 16,
     "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/blob/master/src/search.js",
     "title": "flow/src/search.js at master · MuYunyun/flow",
-    "count": 18,
-    "uniques": 5
+    "count": 12,
+    "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/tree/master/src",
     "title": "flow/src at master · MuYunyun/flow",
-    "count": 17,
-    "uniques": 5
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/package.json",
-    "title": "flow/package.json at master · MuYunyun/flow",
-    "count": 15,
-    "uniques": 3
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
-    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
-    "count": 11,
-    "uniques": 3
-  },
-  {
-    "path": "/MuYunyun/flow/issues/63",
-    "title": "代理模式优化 · Issue #63 · MuYunyun/flow",
-    "count": 8,
+    "count": 10,
     "uniques": 4
   },
   {
@@ -48,15 +30,33 @@
     "uniques": 2
   },
   {
-    "path": "/MuYunyun/flow/releases",
-    "title": "Releases · MuYunyun/flow",
-    "count": 4,
+    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
+    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
+    "count": 7,
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/blob/master/package.json",
+    "title": "flow/package.json at master · MuYunyun/flow",
+    "count": 7,
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/issues/63",
+    "title": "代理模式优化 · Issue #63 · MuYunyun/flow",
+    "count": 6,
+    "uniques": 4
+  },
+  {
+    "path": "/MuYunyun/flow/issues/new",
+    "title": "New Issue · MuYunyun/flow",
+    "count": 2,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/commits/master",
-    "title": "Commits · MuYunyun/flow",
-    "count": 3,
+    "path": "/MuYunyun/flow/pulls",
+    "title": "Pull requests · MuYunyun/flow",
+    "count": 2,
     "uniques": 1
   }
 ]
