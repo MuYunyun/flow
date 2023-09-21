@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 17,
-    "uniques": 7
+    "count": 20,
+    "uniques": 9
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -18,12 +18,6 @@
     "uniques": 3
   },
   {
-    "path": "/MuYunyun/flow/issues/63",
-    "title": "代理模式优化 · Issue #63 · MuYunyun/flow",
-    "count": 5,
-    "uniques": 3
-  },
-  {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
     "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
     "count": 5,
@@ -32,6 +26,12 @@
   {
     "path": "/MuYunyun/flow/blob/master/src/search.js",
     "title": "flow/src/search.js at master · MuYunyun/flow",
+    "count": 4,
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/issues/63",
+    "title": "代理模式优化 · Issue #63 · MuYunyun/flow",
     "count": 4,
     "uniques": 2
   },
