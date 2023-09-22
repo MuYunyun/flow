@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 20,
-    "uniques": 9
+    "count": 17,
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -14,20 +14,14 @@
   {
     "path": "/MuYunyun/flow/tree/master/src",
     "title": "flow/src at master · MuYunyun/flow",
-    "count": 7,
-    "uniques": 3
+    "count": 5,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
     "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
     "count": 5,
     "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/search.js",
-    "title": "flow/src/search.js at master · MuYunyun/flow",
-    "count": 4,
-    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/issues/63",
@@ -38,12 +32,18 @@
   {
     "path": "/MuYunyun/flow/issues/new",
     "title": "New Issue · MuYunyun/flow",
-    "count": 3,
+    "count": 4,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "Pull requests · MuYunyun/flow",
+    "path": "/MuYunyun/flow/blob/master/src/search.js",
+    "title": "flow/src/search.js at master · MuYunyun/flow",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/67",
+    "title": "whistle 抓包工具调研 · Issue #67 · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   },
