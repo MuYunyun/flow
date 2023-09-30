@@ -2,19 +2,25 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 11,
-    "uniques": 9
+    "count": 10,
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 5,
+    "count": 6,
     "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/issues/67",
     "title": "whistle 抓包工具调研 · Issue #67 · MuYunyun/flow",
     "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/66",
+    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
+    "count": 2,
     "uniques": 1
   },
   {
@@ -30,8 +36,8 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/66",
-    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/65",
+    "title": "支持快速挪动某文件到目标文件下 · Issue #65 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
