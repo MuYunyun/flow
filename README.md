@@ -1,6 +1,6 @@
 ![GitHub views](https://raw.githubusercontent.com/MuYunyun/flow/traffic/traffic-flow/views.svg)
 
-> 工欲善其事，必先利其器。
+> 工欲善其事，必先利其器。Don't repeat yourself(DRY).
 
 - [使用说明](#使用说明)
 - [快捷搜索跳转](#快捷搜索跳转)
