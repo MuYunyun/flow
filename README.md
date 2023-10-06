@@ -73,9 +73,11 @@
 ### 使用 VSCode 快速打开项目文件
 
 * 触发 key: code
-* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
+* 前置配置: 在环境配置中添加 codePath 参数与其对应的文件目录。
+
+![](http://with.muyunyun.cn/a5fde4787dd6538ec0ab85a82bde37ca.jpg)
 
 ### 快速打开到项目对应的 github/gitlab 链接
 
 * 触发 key: open
-* 前置配置: 需双击点开流水线配置，将目标目录替换为自己的。
+* 前置配置: 在环境配置中添加 openPath 参数与其对应的文件目录。（配置图示同上 code 功能）
