@@ -2,13 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: alfred workflow enhance",
-    "count": 8,
+    "count": 7,
     "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 6,
+    "count": 5,
     "uniques": 1
   },
   {
@@ -18,20 +18,14 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/67",
-    "title": "whistle 抓包工具调研 · Issue #67 · MuYunyun/flow · GitHub",
-    "count": 2,
-    "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/issues/63",
-    "title": "代理模式优化 · Issue #63 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/66",
+    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/66",
-    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/67",
+    "title": "whistle 抓包工具调研 · Issue #67 · MuYunyun/flow · GitHub",
     "count": 1,
     "uniques": 1
   }
