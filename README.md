@@ -3,16 +3,16 @@
 > 工欲善其事，必先利其器。Don't repeat yourself(DRY).
 
 - [使用说明](#使用说明)
+- [工作流提效](#工作流提效)
+  - [快速打开到项目对应的 github/gitlab 链接](#快速打开到项目对应的-githubgitlab-链接)
+  - [使用 VSCode 快速打开项目文件](#使用-vscode-快速打开项目文件)
+  - [一键切换网络代理](#一键切换网络代理)
 - [快捷搜索跳转](#快捷搜索跳转)
   - [Github](#github)
   - [知乎](#知乎)
   - [淘宝](#淘宝)
   - [京东](#京东)
   - [掘金](#掘金)
-- [工作流提效](#工作流提效)
-  - [一键切换网络代理](#一键切换网络代理)
-  - [使用 VSCode 快速打开项目文件](#使用-vscode-快速打开项目文件)
-  - [快速打开到项目对应的 github/gitlab 链接](#快速打开到项目对应的-githubgitlab-链接)
 
 ## 使用说明
 
@@ -20,6 +20,39 @@
 2. 双击下载好的 `flow.alfredworkflow` 文件, 自动完成安装。
 
 > 使用该插件需要[安装 node](https://nodejs.org/en/)
+
+## 工作流提效
+
+### 快速打开到项目对应的 github/gitlab 链接
+
+https://github.com/MuYunyun/flow/assets/19354791/d67bf6bf-df0e-4fa4-9f8a-8f5acc04d831
+
+* 触发 key: open
+* 前置配置: 在环境配置中添加 openPath 参数与其对应的文件目录。（配置图示同上 code 功能）
+
+### 使用 VSCode 快速打开项目文件
+
+https://github.com/MuYunyun/flow/assets/19354791/c91e3633-52a9-4b2e-8752-004274b0ca9e
+
+* 触发 key: code
+* 前置配置: 在环境配置中添加 codePath 参数与其对应的文件目录。
+
+![](http://with.muyunyun.cn/a5fde4787dd6538ec0ab85a82bde37ca.jpg)
+
+### 一键切换网络代理
+
+在使用公司内部网络加速、开 vpn、使用 Charles 调试等场景下，需要频繁在路径 `System Preferences - Network - Advanced - Proxies` 下进行手动切换代理配置，十分繁琐。为此提供该 workflow 来简化配置链路。
+
+* 触发 key: pac
+* 选项
+  * `clear all proxy`: 清空全部代理；
+    * 场景：使用抓包工具（如 Charles.app）代理调试前一般需要清空全部代理，避免代理产生冲突。
+  * `auto proxy discovery`: 设置自动代理模式；
+    * 场景：让浏览器自动发现代理服务器，用于公司内部网络加速。
+  * `global mode`: 设置全局代理模式；
+    * 场景：用于科学上网；
+
+![](http://with.muyunyun.cn/00dd758122c9cbde256f5d02518ad769.gif)
 
 ## 快捷搜索跳转
 
@@ -52,36 +85,3 @@
 * 触发 key : `gold`, 按住 `cmd` 可以查看内容简介
 
 ![](http://with.muyunyun.cn/40a83edf9552b4a071dd2ff5093a445b.gif)
-
-## 工作流提效
-
-### 一键切换网络代理
-
-在使用公司内部网络加速、开 vpn、使用 Charles 调试等场景下，需要频繁在路径 `System Preferences - Network - Advanced - Proxies` 下进行手动切换代理配置，十分繁琐。为此提供该 workflow 来简化配置链路。
-
-* 触发 key: pac
-* 选项
-  * `clear all proxy`: 清空全部代理；
-    * 场景：使用抓包工具（如 Charles.app）代理调试前一般需要清空全部代理，避免代理产生冲突。
-  * `auto proxy discovery`: 设置自动代理模式；
-    * 场景：让浏览器自动发现代理服务器，用于公司内部网络加速。
-  * `global mode`: 设置全局代理模式；
-    * 场景：用于科学上网；
-
-![](http://with.muyunyun.cn/00dd758122c9cbde256f5d02518ad769.gif)
-
-### 使用 VSCode 快速打开项目文件
-
-https://github.com/MuYunyun/flow/assets/19354791/c91e3633-52a9-4b2e-8752-004274b0ca9e
-
-* 触发 key: code
-* 前置配置: 在环境配置中添加 codePath 参数与其对应的文件目录。
-
-![](http://with.muyunyun.cn/a5fde4787dd6538ec0ab85a82bde37ca.jpg)
-
-### 快速打开到项目对应的 github/gitlab 链接
-
-https://github.com/MuYunyun/flow/assets/19354791/d67bf6bf-df0e-4fa4-9f8a-8f5acc04d831
-
-* 触发 key: open
-* 前置配置: 在环境配置中添加 openPath 参数与其对应的文件目录。（配置图示同上 code 功能）
