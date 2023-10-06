@@ -72,12 +72,16 @@
 
 ### 使用 VSCode 快速打开项目文件
 
+https://github.com/MuYunyun/flow/assets/19354791/c91e3633-52a9-4b2e-8752-004274b0ca9e
+
 * 触发 key: code
 * 前置配置: 在环境配置中添加 codePath 参数与其对应的文件目录。
 
 ![](http://with.muyunyun.cn/a5fde4787dd6538ec0ab85a82bde37ca.jpg)
 
 ### 快速打开到项目对应的 github/gitlab 链接
+
+https://github.com/MuYunyun/flow/assets/19354791/d67bf6bf-df0e-4fa4-9f8a-8f5acc04d831
 
 * 触发 key: open
 * 前置配置: 在环境配置中添加 openPath 参数与其对应的文件目录。（配置图示同上 code 功能）
