@@ -95,3 +95,7 @@ https://github.com/MuYunyun/flow/assets/19354791/c91e3633-52a9-4b2e-8752-004274b
 场景：每次手动将选中文件移动到目标文件夹中的操作比较重复繁琐，比如笔者有将技术 PPT 移动到技术分享文件中，将书籍移动到书籍文件夹中的述求。
 
 插件：[下载](https://github.com/zoff28/Alfred-Move-Copy-Files/releases/tag/v2.0.0)
+
+* 触发 key : `moveTo`
+
+https://github.com/MuYunyun/flow/assets/19354791/c4013171-8a45-4480-a8d7-7efe235b9905
