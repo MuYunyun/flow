@@ -32,7 +32,7 @@ https://github.com/MuYunyun/flow/assets/19354791/d67bf6bf-df0e-4fa4-9f8a-8f5acc0
 * 触发 key: open
 * 前置配置: 在环境配置中添加 openPath 参数与其对应的文件目录。
 
-![](http://with.muyunyun.cn/a5fde4787dd6538ec0ab85a82bde37ca.jpg)
+![image](https://github.com/MuYunyun/flow/assets/19354791/3b6e4974-d87b-4269-8909-6d5d87cc6840)
 
 ### 使用 VSCode 快速打开项目文件
 
