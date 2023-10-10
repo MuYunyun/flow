@@ -2,31 +2,31 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 22,
-    "uniques": 4
+    "count": 23,
+    "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 8,
+    "count": 9,
     "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/blob/master/README.md",
     "title": "flow/README.md at master · MuYunyun/flow",
-    "count": 6,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/edit/master/README.md",
-    "title": "Editing flow/README.md at master · MuYunyun/flow",
-    "count": 4,
+    "count": 8,
     "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/issues/65",
     "title": "支持快速挪动某文件到目标文件下 · Issue #65 · MuYunyun/flow",
-    "count": 4,
+    "count": 8,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/edit/master/README.md",
+    "title": "Editing flow/README.md at master · MuYunyun/flow",
+    "count": 6,
     "uniques": 1
   },
   {
@@ -48,14 +48,14 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/23",
-    "title": "工作流 · Issue #23 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/commit/master",
+    "title": "Update README.md · MuYunyun/flow@21e6d88 · GitHub",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/66",
-    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/23",
+    "title": "工作流 · Issue #23 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
