@@ -2,13 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 25,
-    "uniques": 3
+    "count": 27,
+    "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 14,
+    "count": 13,
     "uniques": 1
   },
   {
@@ -20,19 +20,13 @@
   {
     "path": "/MuYunyun/flow/issues/65",
     "title": "支持快速挪动某文件到目标文件下 · Issue #65 · MuYunyun/flow",
-    "count": 8,
+    "count": 7,
     "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/edit/master/README.md",
     "title": "Editing flow/README.md at master · MuYunyun/flow",
     "count": 6,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/issues/66",
-    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
-    "count": 3,
     "uniques": 1
   },
   {
@@ -48,14 +42,20 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/new",
-    "title": "New Issue · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/66",
+    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/tree/master/.github",
-    "title": "flow/.github at master · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/69",
+    "title": "open、code 命令支持配置多文件目录 · Issue #69 · MuYunyun/flow",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/new",
+    "title": "New Issue · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   }
