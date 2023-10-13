@@ -2,13 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 27,
+    "count": 26,
     "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 13,
+    "count": 9,
     "uniques": 1
   },
   {
@@ -18,15 +18,15 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/65",
-    "title": "支持快速挪动某文件到目标文件下 · Issue #65 · MuYunyun/flow",
-    "count": 7,
-    "uniques": 1
-  },
-  {
     "path": "/MuYunyun/flow/edit/master/README.md",
     "title": "Editing flow/README.md at master · MuYunyun/flow",
     "count": 6,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/65",
+    "title": "支持快速挪动某文件到目标文件下 · Issue #65 · MuYunyun/flow",
+    "count": 5,
     "uniques": 1
   },
   {
