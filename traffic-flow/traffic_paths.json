@@ -3,7 +3,7 @@
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
     "count": 28,
-    "uniques": 7
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -12,16 +12,16 @@
     "uniques": 2
   },
   {
+    "path": "/MuYunyun/flow/tree/master/src",
+    "title": "flow/src at master · MuYunyun/flow · GitHub",
+    "count": 9,
+    "uniques": 4
+  },
+  {
     "path": "/MuYunyun/flow/blob/master/README.md",
     "title": "flow/README.md at master · MuYunyun/flow",
     "count": 8,
     "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/src",
-    "title": "flow/src at master · MuYunyun/flow · GitHub",
-    "count": 7,
-    "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/edit/master/README.md",
@@ -42,21 +42,21 @@
     "uniques": 1
   },
   {
+    "path": "/MuYunyun/flow/tree/master/src/flow",
+    "title": "flow/src/flow at master · MuYunyun/flow",
+    "count": 4,
+    "uniques": 2
+  },
+  {
     "path": "/MuYunyun/flow/issues/69",
     "title": "open、code 命令支持配置多文件目录 · Issue #69 · MuYunyun/flow",
     "count": 3,
     "uniques": 2
   },
   {
-    "path": "/MuYunyun/flow/blob/master/src/flow/run.js",
-    "title": "flow/src/flow/run.js at master · MuYunyun/flow · GitHub",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/search.js",
-    "title": "flow/src/search.js at master · MuYunyun/flow · GitHub",
-    "count": 2,
+    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
+    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
+    "count": 3,
     "uniques": 1
   }
 ]
