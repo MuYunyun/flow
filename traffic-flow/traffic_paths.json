@@ -30,6 +30,12 @@
     "uniques": 1
   },
   {
+    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
+    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow · GitHub",
+    "count": 5,
+    "uniques": 2
+  },
+  {
     "path": "/MuYunyun/flow/blob/master/src/flow/common.js",
     "title": "flow/src/flow/common.js at master · MuYunyun/flow · GitHub",
     "count": 5,
@@ -52,11 +58,5 @@
     "title": "open、code 命令支持配置多文件目录 · Issue #69 · MuYunyun/flow",
     "count": 3,
     "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
-    "title": "flow/flow.alfredworkflow at master · MuYunyun/flow",
-    "count": 3,
-    "uniques": 1
   }
 ]
