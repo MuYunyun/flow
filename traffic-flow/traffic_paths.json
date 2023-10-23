@@ -2,20 +2,14 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 13,
+    "count": 11,
     "uniques": 10
   },
   {
     "path": "/MuYunyun/flow/tree/master/src",
     "title": "flow/src at master · MuYunyun/flow · GitHub",
-    "count": 9,
-    "uniques": 4
-  },
-  {
-    "path": "/MuYunyun/flow/issues",
-    "title": "Issues · MuYunyun/flow",
-    "count": 6,
-    "uniques": 2
+    "count": 7,
+    "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
@@ -26,19 +20,13 @@
   {
     "path": "/MuYunyun/flow/blob/master/src/flow/common.js",
     "title": "flow/src/flow/common.js at master · MuYunyun/flow · GitHub",
-    "count": 5,
-    "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/src/flow",
-    "title": "flow/src/flow at master · MuYunyun/flow",
-    "count": 4,
-    "uniques": 2
+    "count": 3,
+    "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/issues/69",
     "title": "open、code 命令支持配置多文件目录 · Issue #69 · MuYunyun/flow",
-    "count": 3,
+    "count": 2,
     "uniques": 2
   },
   {
@@ -54,9 +42,21 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/66",
-    "title": "支持快捷键 template · Issue #66 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/tree/master/src/flow",
+    "title": "flow/src/flow at master · MuYunyun/flow",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/tree/master",
+    "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
+    "count": 1,
     "uniques": 1
   }
 ]
