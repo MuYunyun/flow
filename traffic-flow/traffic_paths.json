@@ -2,14 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 11,
-    "uniques": 10
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/src",
-    "title": "flow/src at master · MuYunyun/flow · GitHub",
-    "count": 7,
-    "uniques": 3
+    "count": 9,
+    "uniques": 9
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
@@ -18,20 +12,8 @@
     "uniques": 2
   },
   {
-    "path": "/MuYunyun/flow/blob/master/src/flow/common.js",
-    "title": "flow/src/flow/common.js at master · MuYunyun/flow · GitHub",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/flow/run.js",
-    "title": "flow/src/flow/run.js at master · MuYunyun/flow · GitHub",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/search.js",
-    "title": "flow/src/search.js at master · MuYunyun/flow · GitHub",
+    "path": "/MuYunyun/flow/tree/master/src",
+    "title": "flow/src at master · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   },
