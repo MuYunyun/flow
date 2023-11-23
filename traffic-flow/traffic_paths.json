@@ -2,13 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 15,
-    "uniques": 6
+    "count": 17,
+    "uniques": 7
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 12,
+    "count": 15,
     "uniques": 2
   },
   {
@@ -36,6 +36,12 @@
     "uniques": 1
   },
   {
+    "path": "/MuYunyun/flow/issues/new",
+    "title": "New Issue · MuYunyun/flow",
+    "count": 2,
+    "uniques": 1
+  },
+  {
     "path": "/MuYunyun/flow/tree/master/src/flow",
     "title": "flow/src/flow at master · MuYunyun/flow",
     "count": 2,
@@ -50,12 +56,6 @@
   {
     "path": "/MuYunyun/flow/issues/22",
     "title": "为什么我输入code 然后输入项目名称 啥也没反应 · Issue #22 · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/issues/30",
-    "title": "能否增加对csdn和b站以及v2ex还有gitee的支持 · Issue #30 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
