@@ -24,12 +24,6 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/commit/master",
-    "title": "Update README.md · MuYunyun/flow@21e6d88 · GitHub",
-    "count": 2,
-    "uniques": 2
-  },
-  {
     "path": "/MuYunyun/flow/blob/master/src/search.js",
     "title": "flow/src/search.js at master · MuYunyun/flow",
     "count": 2,
@@ -45,6 +39,12 @@
     "path": "/MuYunyun/flow/tree/master/src/flow",
     "title": "flow/src/flow at master · MuYunyun/flow",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/commit/master",
+    "title": "Update README.md · MuYunyun/flow@21e6d88 · GitHub",
+    "count": 1,
     "uniques": 1
   },
   {
