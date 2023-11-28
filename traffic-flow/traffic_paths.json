@@ -2,43 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 17,
+    "count": 7,
     "uniques": 7
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 15,
-    "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/issues/72",
-    "title": "移除 node.js 环境依赖 · Issue #72 · MuYunyun/flow",
-    "count": 5,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/src",
-    "title": "flow/src at master · MuYunyun/flow",
     "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/src/search.js",
-    "title": "flow/src/search.js at master · MuYunyun/flow",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/issues/new",
-    "title": "New Issue · MuYunyun/flow",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/src/flow",
-    "title": "flow/src/flow at master · MuYunyun/flow",
-    "count": 2,
     "uniques": 1
   },
   {
@@ -48,14 +18,14 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/1",
-    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/75",
+    "title": "批量移除项目中 git 的冲突分支、发布分支 · Issue #75 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/22",
-    "title": "为什么我输入code 然后输入项目名称 啥也没反应 · Issue #22 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/new",
+    "title": "New Issue · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
