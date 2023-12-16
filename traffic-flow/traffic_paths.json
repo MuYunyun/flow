@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 6,
-    "uniques": 4
+    "count": 7,
+    "uniques": 5
   },
   {
     "path": "/MuYunyun/flow/blob/master/flow.alfredworkflow",
@@ -15,6 +15,12 @@
     "path": "/MuYunyun/flow/tree/master/src",
     "title": "flow/src at master · MuYunyun/flow",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
+    "count": 1,
     "uniques": 1
   }
 ]
