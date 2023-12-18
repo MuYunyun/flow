@@ -2,13 +2,19 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 4,
+    "count": 5,
     "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/commits/feature/split",
     "title": "Commits · MuYunyun/flow",
     "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/tree/feature/split",
+    "title": "MuYunyun/flow at feature/split",
+    "count": 2,
     "uniques": 1
   },
   {
@@ -20,12 +26,6 @@
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/feature/split",
-    "title": "MuYunyun/flow at feature/split",
     "count": 1,
     "uniques": 1
   }
