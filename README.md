@@ -19,7 +19,7 @@
 
 ## 快捷搜索跳转
 
-1. [下载 flow](https://github.com/MuYunyun/flow/raw/master/Flow Search.alfredworkflow)
+1. [下载 Flow Search](https://github.com/MuYunyun/flow/raw/master/Flow%20Search.alfredworkflow)
 2. 双击下载好的 `Flow Search.alfredworkflow` 文件, 自动完成安装。
 
 > 使用该插件需要[安装 node](https://nodejs.org/en/)
@@ -56,7 +56,7 @@
 
 ## 工作提效
 
-1. [下载 flow](https://github.com/MuYunyun/flow/raw/master/Flow Tool.alfredworkflow)
+1. [下载 Flow Tool](https://github.com/MuYunyun/flow/raw/master/Flow%20Tool.alfredworkflow)
 2. 双击下载好的 `Flow Tool.alfredworkflow` 文件, 自动完成安装。
 
 > 使用该插件需要[安装 node](https://nodejs.org/en/)
@@ -96,7 +96,7 @@ https://github.com/MuYunyun/flow/assets/19354791/c91e3633-52a9-4b2e-8752-004274b
 
 ### Base64 编码解码
 
-1. [下载 flow](https://github.com/MuYunyun/flow/raw/master/Flow Codec.alfredworkflow)
+1. [下载 Flow Codec](https://github.com/MuYunyun/flow/raw/master/Flow%20Codec.alfredworkflow)
 2. 双击下载好的 `Flow Codec.alfredworkflow` 文件, 自动完成安装。
 
 * 编码
