@@ -1,0 +1,17 @@
+{
+  "name": "flow",
+  "version": "0.5.1",
+  "description": "work flow enhance",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuYunyun/flow.git"
+  },
+  "author": "muyunyun (muyy95@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "run-node": "^2.0.0"
+  }
+}
