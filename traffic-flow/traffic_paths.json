@@ -6,12 +6,6 @@
     "uniques": 3
   },
   {
-    "path": "/MuYunyun/flow/issues",
-    "title": "Issues · MuYunyun/flow",
-    "count": 4,
-    "uniques": 1
-  },
-  {
     "path": "/MuYunyun/flow/actions/runs/6064300788",
     "title": "代理模式优化 · MuYunyun/flow@7b568bf · GitHub",
     "count": 3,
@@ -20,6 +14,12 @@
   {
     "path": "/MuYunyun/flow/commits/feature/split",
     "title": "Commits · MuYunyun/flow",
+    "count": 3,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
     "count": 3,
     "uniques": 1
   },
