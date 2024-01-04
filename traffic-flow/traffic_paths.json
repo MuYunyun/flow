@@ -2,8 +2,14 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 5,
-    "uniques": 5
+    "count": 8,
+    "uniques": 6
+  },
+  {
+    "path": "/MuYunyun/flow/tree/master/Flow%20Search",
+    "title": "flow/Flow Search at master · MuYunyun/flow",
+    "count": 4,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/blob/master/Flow%20Tool/package.json",
@@ -18,16 +24,10 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/actions/runs/6064300788",
-    "title": "代理模式优化 · MuYunyun/flow@7b568bf · GitHub",
-    "count": 3,
-    "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/actions/runs/6091460957",
-    "title": "traffic2badge · MuYunyun/flow@fade4be · GitHub",
+    "path": "/MuYunyun/flow/blob/master/Flow%20Search.alfredworkflow",
+    "title": "flow/Flow Search.alfredworkflow at master · MuYunyun/flow",
     "count": 2,
-    "uniques": 2
+    "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/blob/master/Flow%20Search/package.json",
