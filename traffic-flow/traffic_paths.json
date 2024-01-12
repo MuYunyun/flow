@@ -2,12 +2,18 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 6,
-    "uniques": 4
+    "count": 9,
+    "uniques": 6
   },
   {
     "path": "/MuYunyun/flow/blob/master/Flow%20Search.alfredworkflow",
     "title": "flow/Flow Search.alfredworkflow at master · MuYunyun/flow",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/commits/master",
+    "title": "Commits · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   },
@@ -24,8 +30,8 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/pull/76",
-    "title": "新增 Base64 编码/解码功能；插件文件目录拆分； by MuYunyun · Pull Request #76 · MuYunyun/flow · ...",
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
