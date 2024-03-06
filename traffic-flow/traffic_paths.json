@@ -2,14 +2,20 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 3,
-    "uniques": 3
+    "count": 4,
+    "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/commits/master",
     "title": "Commits · MuYunyun/flow",
     "count": 3,
     "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/1",
+    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow · G...",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/actions/runs/7073752920",
@@ -30,8 +36,14 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues/1",
-    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues",
+    "title": "Issues · MuYunyun/flow",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "Pull requests · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
