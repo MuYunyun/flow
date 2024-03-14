@@ -2,14 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 7,
-    "uniques": 6
-  },
-  {
-    "path": "/MuYunyun/flow/issues/1",
-    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow · G...",
-    "count": 2,
-    "uniques": 2
+    "count": 12,
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -18,8 +12,20 @@
     "uniques": 1
   },
   {
+    "path": "/MuYunyun/flow/issues/1",
+    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow · G...",
+    "count": 1,
+    "uniques": 1
+  },
+  {
     "path": "/MuYunyun/flow/pulls",
     "title": "Pull requests · MuYunyun/flow",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/releases/tag/v0.5.0",
+    "title": "Release 一键切换网络代理 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   }
