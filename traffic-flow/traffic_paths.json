@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 15,
-    "uniques": 11
+    "count": 10,
+    "uniques": 10
   },
   {
     "path": "/MuYunyun/flow/actions/workflows/greetings.yml",
@@ -27,12 +27,6 @@
     "path": "/MuYunyun/flow/blob/master/Flow%20Tool.alfredworkflow",
     "title": "flow/Flow Tool.alfredworkflow at master · MuYunyun/flow · GitHub",
     "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/releases/tag/v0.5.0",
-    "title": "Release 一键切换网络代理 · MuYunyun/flow",
-    "count": 1,
     "uniques": 1
   }
 ]
