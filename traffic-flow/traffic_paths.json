@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 5,
-    "uniques": 3
+    "count": 8,
+    "uniques": 5
   },
   {
     "path": "/MuYunyun/flow/blob/master/Flow%20Search/src/search.js",
@@ -22,6 +22,12 @@
     "title": "flow/Flow Search/src at master · MuYunyun/flow",
     "count": 4,
     "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/issues/1",
+    "title": "/usr/local/bin/node: No such file or directory · Issue #1 · MuYunyun/flow · G...",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/blob/master/Flow%20Codec.alfredworkflow",
@@ -50,12 +56,6 @@
   {
     "path": "/MuYunyun/flow/tree/master/Flow%20Search",
     "title": "flow/Flow Search at master · MuYunyun/flow",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/Flow%20Tool",
-    "title": "flow/Flow Tool at master · MuYunyun/flow",
     "count": 2,
     "uniques": 1
   }

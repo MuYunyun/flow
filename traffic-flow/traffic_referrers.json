@@ -5,8 +5,13 @@
     "uniques": 4
   },
   {
+    "referrer": "iwiki.woa.com",
+    "count": 3,
+    "uniques": 2
+  },
+  {
     "referrer": "Google",
-    "count": 1,
-    "uniques": 1
+    "count": 2,
+    "uniques": 2
   }
 ]
