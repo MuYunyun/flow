@@ -1,12 +1,12 @@
 [
   {
-    "referrer": "iwiki.woa.com",
-    "count": 4,
-    "uniques": 2
-  },
-  {
     "referrer": "github.com",
     "count": 2,
     "uniques": 2
+  },
+  {
+    "referrer": "iwiki.woa.com",
+    "count": 1,
+    "uniques": 1
   }
 ]
