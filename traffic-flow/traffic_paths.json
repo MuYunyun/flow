@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 5,
-    "uniques": 4
+    "count": 4,
+    "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/issues",
@@ -20,6 +20,12 @@
   {
     "path": "/MuYunyun/flow/pulls",
     "title": "Pull requests · MuYunyun/flow",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/releases/tag/v0.5.0",
+    "title": "Release 一键切换网络代理 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   },
