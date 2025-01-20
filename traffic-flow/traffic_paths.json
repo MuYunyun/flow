@@ -2,26 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 4,
-    "uniques": 3
-  },
-  {
-    "path": "/MuYunyun/flow/issues",
-    "title": "Issues · MuYunyun/flow",
     "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/issues/67",
-    "title": "whistle 抓包工具调研 · Issue #67 · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "Pull requests · MuYunyun/flow",
-    "count": 1,
-    "uniques": 1
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/releases/tag/v0.5.0",
