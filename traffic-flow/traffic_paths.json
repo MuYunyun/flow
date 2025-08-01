@@ -2,8 +2,20 @@
   {
     "path": "/MuYunyun/flow",
     "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
+    "count": 4,
+    "uniques": 4
+  },
+  {
+    "path": "/MuYunyun/flow/issues",
+    "title": "Repo Issues · GitHub",
     "count": 3,
-    "uniques": 3
+    "uniques": 2
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "Pull requests · MuYunyun/flow · GitHub",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/commit/master",
@@ -12,20 +24,14 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/issues",
-    "title": "Issues · MuYunyun/flow",
+    "path": "/MuYunyun/flow/issues/69",
+    "title": "code 命令支持打开任意文件代替指定目录 · Issue #69 · MuYunyun/flow",
     "count": 1,
     "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/milestones",
     "title": "GitHub · Where software is built",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "Pull requests · MuYunyun/flow · GitHub",
     "count": 1,
     "uniques": 1
   }
