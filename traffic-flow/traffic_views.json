@@ -1948,6 +1948,26 @@
       "uniques": 1
     },
     {
+      "timestamp": "2025-12-16T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2025-12-18T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2025-12-19T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2025-12-20T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
       "timestamp": "2025-12-21T00:00:00Z",
       "count": 1,
       "uniques": 1
@@ -1958,14 +1978,39 @@
       "uniques": 1
     },
     {
+      "timestamp": "2025-12-23T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2025-12-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
       "timestamp": "2025-12-25T00:00:00Z",
       "count": 1,
       "uniques": 1
     },
     {
+      "timestamp": "2025-12-26T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2025-12-27T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
       "timestamp": "2025-12-28T00:00:00Z",
       "count": 3,
       "uniques": 2
+    },
+    {
+      "timestamp": "2025-12-29T00:00:00Z",
+      "count": 0,
+      "uniques": 0
     }
   ]
 }
