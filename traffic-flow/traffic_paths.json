@@ -1,20 +1,14 @@
 [
   {
     "path": "/MuYunyun/flow",
-    "title": "MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
-    "count": 3,
-    "uniques": 3
+    "title": "GitHub - MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY).",
+    "count": 2,
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/pull/55",
     "title": "chore(deps): bump actions/checkout from 2.3.3 to 3.5.0 by dependabot[bot] · P...",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/actions/runs/15728869962",
-    "title": "github_actions in /. - Update #1036537704 · MuYunyun/flow@ace558c · GitHub",
-    "count": 1,
-    "uniques": 1
   }
 ]
