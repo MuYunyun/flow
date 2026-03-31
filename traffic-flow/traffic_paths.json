@@ -2,7 +2,7 @@
   {
     "path": "/MuYunyun/flow",
     "title": "GitHub - MuYunyun/flow: Efficiency tools. Don't repeat yourself(DRY). · GitHub",
-    "count": 6,
+    "count": 7,
     "uniques": 5
   },
   {
@@ -20,6 +20,12 @@
   {
     "path": "/MuYunyun/flow/issues",
     "title": "Issues · MuYunyun/flow · GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "Pull requests · MuYunyun/flow · GitHub",
     "count": 1,
     "uniques": 1
   },
