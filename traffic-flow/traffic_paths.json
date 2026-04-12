@@ -2,24 +2,12 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 4,
+    "count": 3,
     "uniques": 3
   },
   {
     "path": "/MuYunyun/flow/pulls",
     "title": "/pulls",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master",
-    "title": "/tree/master",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/tree/master/Flow Search",
-    "title": "/tree/master/Flow Search",
     "count": 1,
     "uniques": 1
   }
