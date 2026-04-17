@@ -2,12 +2,24 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
+    "count": 3,
+    "uniques": 3
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "/pulls",
     "count": 2,
     "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/blob/master/.gitignore",
     "title": "/blob/master/.gitignore",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/forks",
+    "title": "/forks",
     "count": 1,
     "uniques": 1
   },
@@ -24,8 +36,8 @@
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "/pulls",
+    "path": "/MuYunyun/flow/stargazers",
+    "title": "/stargazers",
     "count": 1,
     "uniques": 1
   }
