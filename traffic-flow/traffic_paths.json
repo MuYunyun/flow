@@ -1,15 +1,15 @@
 [
   {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "/pulls",
+    "count": 4,
+    "uniques": 4
+  },
+  {
     "path": "/MuYunyun/flow",
     "title": "Overview",
     "count": 3,
-    "uniques": 3
-  },
-  {
-    "path": "/MuYunyun/flow/pulls",
-    "title": "/pulls",
-    "count": 3,
-    "uniques": 3
+    "uniques": 2
   },
   {
     "path": "/MuYunyun/flow/blob/master/.gitignore",
