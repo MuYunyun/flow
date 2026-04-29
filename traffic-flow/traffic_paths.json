@@ -3,7 +3,7 @@
     "path": "/MuYunyun/flow",
     "title": "Overview",
     "count": 8,
-    "uniques": 5
+    "uniques": 6
   },
   {
     "path": "/MuYunyun/flow/pulls",
@@ -16,12 +16,6 @@
     "title": "/issues",
     "count": 2,
     "uniques": 2
-  },
-  {
-    "path": "/MuYunyun/flow/blob/master/.gitignore",
-    "title": "/blob/master/.gitignore",
-    "count": 1,
-    "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/forks",
