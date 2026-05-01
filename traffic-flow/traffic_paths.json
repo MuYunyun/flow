@@ -2,36 +2,24 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 8,
-    "uniques": 6
+    "count": 9,
+    "uniques": 7
   },
   {
     "path": "/MuYunyun/flow/pulls",
     "title": "/pulls",
-    "count": 6,
-    "uniques": 6
+    "count": 5,
+    "uniques": 5
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "/issues",
-    "count": 2,
-    "uniques": 2
+    "count": 3,
+    "uniques": 3
   },
   {
-    "path": "/MuYunyun/flow/forks",
-    "title": "/forks",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/labels",
-    "title": "/labels",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/stargazers",
-    "title": "/stargazers",
+    "path": "/MuYunyun/flow/issues/1",
+    "title": "/issues/1",
     "count": 1,
     "uniques": 1
   }
