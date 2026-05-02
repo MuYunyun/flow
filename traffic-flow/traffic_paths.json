@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 9,
-    "uniques": 7
+    "count": 10,
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/pulls",
@@ -14,8 +14,20 @@
   {
     "path": "/MuYunyun/flow/issues",
     "title": "/issues",
-    "count": 3,
-    "uniques": 3
+    "count": 4,
+    "uniques": 4
+  },
+  {
+    "path": "/MuYunyun/flow/blob/master/Flow Tool.alfredworkflow",
+    "title": "/blob/master/Flow Tool.alfredworkflow",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/commit/7b568bf22fdfa62a9fd467311c0e05a46960bba1",
+    "title": "/commit/7b568bf22fdfa62a9fd467311c0e05a46960bba1",
+    "count": 1,
+    "uniques": 1
   },
   {
     "path": "/MuYunyun/flow/issues/1",
