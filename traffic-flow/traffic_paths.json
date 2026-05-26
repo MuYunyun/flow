@@ -1,13 +1,13 @@
 [
   {
-    "path": "/MuYunyun/flow/issues",
-    "title": "/issues",
-    "count": 2,
+    "path": "/MuYunyun/flow",
+    "title": "Overview",
+    "count": 1,
     "uniques": 1
   },
   {
-    "path": "/MuYunyun/flow",
-    "title": "Overview",
+    "path": "/MuYunyun/flow/issues",
+    "title": "/issues",
     "count": 1,
     "uniques": 1
   },
