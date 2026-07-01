@@ -2,12 +2,18 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 4,
-    "uniques": 3
+    "count": 5,
+    "uniques": 4
   },
   {
     "path": "/MuYunyun/flow/issues",
     "title": "/issues",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "/pulls",
     "count": 1,
     "uniques": 1
   }
