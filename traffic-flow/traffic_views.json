@@ -2878,17 +2878,17 @@
       "uniques": 0
     },
     {
-      "timestamp": "2026-06-21T00:00:00Z",
-      "count": 0,
-      "uniques": 0
-    },
-    {
       "timestamp": "2026-06-20T00:00:00Z",
       "count": 0,
       "uniques": 0
     },
     {
       "timestamp": "2026-06-22T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-06-21T00:00:00Z",
       "count": 0,
       "uniques": 0
     },
@@ -2944,6 +2944,11 @@
     },
     {
       "timestamp": "2026-07-03T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-07-04T00:00:00Z",
       "count": 0,
       "uniques": 0
     }
