@@ -28,5 +28,11 @@
     "title": "/pulls",
     "count": 1,
     "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/releases",
+    "title": "/releases",
+    "count": 1,
+    "uniques": 1
   }
 ]
