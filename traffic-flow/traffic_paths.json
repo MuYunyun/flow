@@ -10,5 +10,11 @@
     "title": "/issues",
     "count": 1,
     "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/projects",
+    "title": "/projects",
+    "count": 1,
+    "uniques": 1
   }
 ]
