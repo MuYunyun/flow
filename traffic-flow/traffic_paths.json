@@ -16,5 +16,11 @@
     "title": "/projects",
     "count": 1,
     "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "/pulls",
+    "count": 1,
+    "uniques": 1
   }
 ]
