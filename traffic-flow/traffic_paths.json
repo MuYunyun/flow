@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow/pulls",
     "title": "/pulls",
-    "count": 4,
-    "uniques": 4
+    "count": 5,
+    "uniques": 5
   },
   {
     "path": "/MuYunyun/flow/actions/runs/17537224626",
@@ -14,12 +14,6 @@
   {
     "path": "/MuYunyun/flow/blob/master/.gitignore",
     "title": "/blob/master/.gitignore",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/MuYunyun/flow/issues",
-    "title": "/issues",
     "count": 1,
     "uniques": 1
   }
