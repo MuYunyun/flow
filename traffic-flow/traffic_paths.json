@@ -2,7 +2,13 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 13,
+    "count": 12,
     "uniques": 8
+  },
+  {
+    "path": "/MuYunyun/flow/pulls",
+    "title": "/pulls",
+    "count": 1,
+    "uniques": 1
   }
 ]
