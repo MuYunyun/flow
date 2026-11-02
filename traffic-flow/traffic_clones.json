@@ -6213,14 +6213,14 @@
       "uniques": 15
     },
     {
-      "timestamp": "2026-10-18T00:00:00Z",
-      "count": 5,
-      "uniques": 4
-    },
-    {
       "timestamp": "2026-10-19T00:00:00Z",
       "count": 12,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-10-18T00:00:00Z",
+      "count": 5,
+      "uniques": 4
     },
     {
       "timestamp": "2026-10-20T00:00:00Z",
