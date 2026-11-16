@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 7,
-    "uniques": 7
+    "count": 8,
+    "uniques": 8
   },
   {
     "path": "/MuYunyun/flow/blob/master/README.md",
@@ -14,6 +14,12 @@
   {
     "path": "/MuYunyun/flow/pulls",
     "title": "/pulls",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/MuYunyun/flow/releases",
+    "title": "/releases",
     "count": 1,
     "uniques": 1
   }
