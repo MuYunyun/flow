@@ -2,8 +2,8 @@
   {
     "path": "/MuYunyun/flow",
     "title": "Overview",
-    "count": 7,
-    "uniques": 7
+    "count": 6,
+    "uniques": 6
   },
   {
     "path": "/MuYunyun/flow/issues/48",
@@ -14,6 +14,12 @@
   {
     "path": "/MuYunyun/flow/releases",
     "title": "/releases",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/muyunyun/flow/actions/metrics/usage",
+    "title": "/actions/metrics/usage",
     "count": 1,
     "uniques": 1
   }
